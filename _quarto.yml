@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "conrardy.ch"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - cv.qmd
+      - tagungen.qmd
+
+format:
+  html:
+    theme:
+      - darkly 
+      - brand
+    css: styles.css
+    toc: true
+    
+  phheidelberg-revealjs:
+    scrollable: true
+    hide-inactive-cursor: true
+    title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
+
+    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy"
+
+affiliations:
+  - id: phbern
+    name: University of Teacher Education Bern
+    address: Länggassstrasse 35
+    city: Bern
+    postal-code: 3012
+    url: https://www.phbern.ch
+    department: Institut Sekundarstufe I
+    ror: https://ror.org/05jf1ma54
+  - id: phheidelberg
+    name: Pädagogische Hochschule Heidelberg
+    url: https://www.ph-heidelberg.de/
+    department: Institut Sekundarstufe I
+

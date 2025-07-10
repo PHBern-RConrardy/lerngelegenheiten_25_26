@@ -1,0 +1,19 @@
+---
+title: "Tagungsunterlagen"
+format: html
+listing:
+
+  - contents: "tagungsunterlagen/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [date, title,subtitle]
+    id: tagungsunterlagen
+    page-size: 100
+---
+
+# Konferenzen
+
+Auflistung von Slideshows für Konferenzen, Tagungen und Austauschgefässen.
+
+:::{#tagungsunterlagen}
+:::
