@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ilias – LG 25 26</title>
+<title>Linksammlung – LG 25 26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-iliaskurse .list');
+    const listingTargetEl = window.document.querySelector('#listing-subdomains .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -80,11 +80,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-categories"],
+      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-subtitle:"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-iliaskurse'] = new List('listing-iliaskurse', options);
+    window['quarto-listings']['listing-subdomains'] = new List('listing-subdomains', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -152,11 +152,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Ilias</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Linksammlung.html"> 
+    <a class="nav-link active" href="./Linksammlung.html" aria-current="page"> 
 <span class="menu-text">Linksammlung</span></a>
   </li>  
 </ul>
@@ -172,14 +172,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="QmV1cnRlaWx1bmc=">Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGlnaXRhbGl05HQ=">Digitalität <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SVMx">IS1 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="SVMy">IS2 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGVocmVuIHVuZCBMZXJuZW4=">Lehren und Lernen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVyc/ZubGljaGUgdW5kIHByb2Zlc3Npb25lbGxlIEVudHdpY2tsdW5n">Persönliche und professionelle Entwicklung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhbnVuZw==">Planung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJha3Rpa3VtIDE=">Praktikum 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1AxMw==">SP13 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WnVzYW1tZW5hcmJlaXQgdW5kIEtvbW11bmlrYXRpb24=">Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="UEggSGVpZGVsYmVyZw==">PH Heidelberg <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEhCZXJu">PHBern <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ilias</h1>
-<p class="subtitle lead">Link zu allen Iliaskursen fürs HS25</p>
+<h1 class="title">Linksammlung</h1>
 </div>
 
 
@@ -200,11 +199,11 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-iliaskurse">
+<div class="quarto-listing quarto-listing-container-table" id="listing-subdomains">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-iliaskurse-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-iliaskurse'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-subdomains-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-subdomains'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title-sort" data-direction="asc">
@@ -226,64 +225,49 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="WnVzYW1tZW5hcmJlaXQgdW5kIEtvbW11bmlrYXRpb24sSVMx" data-listing-title-sort="Digitale Zusammenarbeit und Kommunikation">
+<tr data-index="0" data-categories="UEhCZXJu" data-listing-title-sort="Arbeitenportal">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607151.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
+<a href="https://arbeitenportal.phbern.ch/" class="title listing-title">Arbeitenportal</a>
 </td>
 </tr>
-<tr data-index="1" data-categories="QmV1cnRlaWx1bmcsSVMx" data-listing-title-sort="Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot">
+<tr data-index="1" data-categories="UEhCZXJu" data-listing-title-sort="Komet">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607209.html" class="title listing-title">Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot</a>
+<a href="https://kompetenzabbildung.phbern.ch/" class="title listing-title">Komet</a>
 </td>
 </tr>
-<tr data-index="2" data-categories="RGlnaXRhbGl05HQsSVMx" data-listing-title-sort="Kick-off Leistungsnachweis Digitalität">
+<tr data-index="2" data-categories="UEhCZXJu" data-listing-title-sort="Softwarekatalog">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2606931.html" class="title listing-title">Kick-off Leistungsnachweis Digitalität</a>
+<a href="https://ssk.site.phbern.ch/" class="title listing-title">Softwarekatalog</a>
 </td>
 </tr>
-<tr data-index="3" data-categories="UGVyc/ZubGljaGUgdW5kIHByb2Zlc3Npb25lbGxlIEVudHdpY2tsdW5nLFByYWt0aWt1bSAxLExlaHJlbiB1bmQgTGVybmVu" data-listing-title-sort="Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag">
+<tr data-index="3" data-categories="UEggSGVpZGVsYmVyZw==" data-listing-title-sort="LimeSurvey">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2606891.html" class="title listing-title">Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag</a>
+<a href="https://phheidelberg.limequery.com/" class="title listing-title">LimeSurvey</a>
 </td>
 </tr>
-<tr data-index="4" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 1 / S-Angebot">
+<tr data-index="4" data-listing-title-sort="Docata">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588286.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 1 / S-Angebot</a>
+<a href="https://docata.ph-heidelberg.de/home" class="title listing-title">Docata</a>
 </td>
 </tr>
-<tr data-index="5" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 2 / Block Feb">
+<tr data-index="5" data-listing-title-sort="Campusportal">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588276.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / Block Feb</a>
+<a href="https://campus.ph-heidelberg.de/" class="title listing-title">Campusportal</a>
 </td>
 </tr>
-<tr data-index="6" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 2 / F-Angebot">
+<tr data-index="6" data-categories="UEhCZXJu" data-listing-title-sort="QM-Pilot">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588277.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / F-Angebot</a>
+<a href="qmp.phbern.ch" class="title listing-title">QM-Pilot</a>
 </td>
 </tr>
-<tr data-index="7" data-categories="SVMxLFNQMTM=" data-listing-title-sort="Spezialisierung Informatik - Sammelgefäss HS25| Conrardy Richard François, Schär Sonja">
+<tr data-index="7" data-categories="UEhCZXJu" data-listing-title-sort="Forum für Lehrpersonen">
 <td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607362.html" class="title listing-title">Spezialisierung Informatik - Sammelgefäss HS25| Conrardy Richard François, Schär Sonja</a>
+<a href="https://forum.phbern.ch" class="title listing-title">Forum für Lehrpersonen</a>
 </td>
 </tr>
-<tr data-index="8" data-categories="RGlnaXRhbGl05HQsSVMx" data-listing-title-sort="Standortbestimmung Digitalität">
+<tr data-index="8" data-categories="UEhCZXJu" data-listing-title-sort="Richtlinien zur Texterstellung">
 <td>
-<span class="listing-title">Standortbestimmung Digitalität</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="RGlnaXRhbGl05HQsSVMx" data-listing-title-sort="Medien &amp; Informatik unterrichten">
-<td>
-<span class="listing-title">Medien &amp; Informatik unterrichten</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="QmV1cnRlaWx1bmcsSVMx" data-listing-title-sort="Digitalität und Datenschutz">
-<td>
-<span class="listing-title">Digitalität und Datenschutz</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="UGxhbnVuZyxJUzE=" data-listing-title-sort="Mediendidaktik">
-<td>
-<span class="listing-title">Mediendidaktik</span>
+<a href="https://rzt.site.phbern.ch/richtlinien/" class="title listing-title">Richtlinien zur Texterstellung</a>
 </td>
 </tr>
 </tbody>
