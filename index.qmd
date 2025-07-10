@@ -41,6 +41,4 @@ listing:
     categories: true
     id: iliaskurse
     page-size: 100
-
-    
 ---
