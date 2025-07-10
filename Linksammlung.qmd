@@ -1,0 +1,43 @@
+---
+title: "Linksammlung"
+format: html
+listing:
+  - contents:
+        - title: Arbeitenportal
+          subtitle: Masterarbeiten der PHBern
+          path: "https://arbeitenportal.phbern.ch/"
+          categories: [PHBern]
+        - title: Komet
+          subtitle: Kompetenzabbildungstool
+          path: "https://kompetenzabbildung.phbern.ch/"
+          categories: [PHBern]
+        - title: Softwarekatalog
+          subtitle: Interne Software
+          path: "https://ssk.site.phbern.ch/"
+          categories: [PHBern]
+        - title: LimeSurvey
+          path: "https://phheidelberg.limequery.com/"
+          categories: [PH Heidelberg]
+        - title: Docata
+          subtitle:: Doktorierendenadministration
+          path: "https://docata.ph-heidelberg.de/home"
+        - title: Campusportal
+          subtitle: Studiengebühren zahlen
+          path: "https://campus.ph-heidelberg.de/" 
+        - title: QM-Pilot
+          subtitle: Qualitätsmanagementpilot
+          path: "qmp.phbern.ch"
+          categories: [PHBern]
+        - title: Forum für Lehrpersonen
+          path: "https://forum.phbern.ch"
+          categories: [PHBern]
+        - title: Richtlinien zur Texterstellung
+          path: "https://rzt.site.phbern.ch/richtlinien/"
+          categories: [PHBern]
+    type: table
+    fields: [title]
+    categories: true
+    id: subdomains
+    page-size: 100
+    
+---

@@ -1,7 +1,46 @@
 ---
-title: "Willkommen"
+title: "Ilias"
+subtitle: "Link zu allen Iliaskursen fürs HS25"
+format: html
+listing:
+  - contents:
+    - title: Digitale Zusammenarbeit und Kommunikation
+      path: "https://ilias.phbern.ch/goto_phbern_crs_2607151.html"
+      categories: [Zusammenarbeit und Kommunikation, IS1]
+    - title: Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot 
+      path: "https://ilias.phbern.ch/goto_phbern_crs_2607209.html"
+      categories: [Beurteilung, IS1]
+    - title: Kick-off Leistungsnachweis Digitalität 
+      path: "https://ilias.phbern.ch/goto_phbern_crs_2606931.html"
+      categories: [Digitalität, IS1]
+    - title: Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag
+      path: "https://ilias.phbern.ch/goto_phbern_crs_2606891.html"  
+      categories: [Persönliche und professionelle Entwicklung, Praktikum 1, Lehren und Lernen ]
+    - title: Pädagogik, Psychologie, Digitalität 1 / S-Angebot
+      path: https://ilias.phbern.ch/goto_phbern_crs_2588286.html
+      categories: [IS2]
+    - title: Pädagogik, Psychologie, Digitalität 2 / Block Feb 
+      path: https://ilias.phbern.ch/goto_phbern_crs_2588276.html
+      categories: [IS2]
+    - title: Pädagogik, Psychologie, Digitalität 2 / F-Angebot
+      path: https://ilias.phbern.ch/goto_phbern_crs_2588277.html
+      categories: [IS2]
+    - title: Spezialisierung Informatik - Sammelgefäss HS25| Conrardy Richard François, Schär Sonja
+      path: https://ilias.phbern.ch/goto_phbern_crs_2607362.html
+      categories: [IS1, SP13]
+    - title: Standortbestimmung Digitalität
+      categories: [Digitalität, IS1]
+    - title: Medien & Informatik unterrichten
+      categories: [Digitalität, IS1]
+    - title: Digitalität und Datenschutz
+      categories: [Beurteilung, IS1]
+    - title: Mediendidaktik
+      categories: [Planung, IS1]
+    type: table
+    fields: [title]
+    categories: true
+    id: iliaskurse
+    page-size: 100
+
+    
 ---
-
-This is a Quarto website.
-
-To learn more about [Quarto](test) websites visit 
