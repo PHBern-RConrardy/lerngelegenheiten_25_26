@@ -15,16 +15,6 @@ website:
 format:
   html:
     theme:
-      - darkly 
-      - brand
+      - default
     css: styles.css
-    toc: true
     
-  phheidelberg-revealjs:
-    scrollable: true
-    hide-inactive-cursor: true
-    title-slide-attributes: 
-      data-background-image: "images/logo cc-by-sa.svg"
-      data-background-size: 12%
-      data-background-position: 94% 99%
-    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy"
