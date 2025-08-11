@@ -31,10 +31,12 @@ listing:
     - title: Standortbestimmung Digitalität
       categories: [Digitalität, IS1]
     - title: Medien & Informatik unterrichten
+      path: https://ilias.phbern.ch/go/crs/2606932
       categories: [Digitalität, IS1]
     - title: Digitalität und Datenschutz
       categories: [Beurteilung, IS1]
     - title: Mediendidaktik
+      path: https://ilias.phbern.ch/go/crs/2607118
       categories: [Planung, IS1]
     type: table
     fields: [title]
