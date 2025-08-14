@@ -6,5 +6,11 @@
   {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/slides.html",
+    "items": [
+      "/Slides/Datenschutz.html"
+    ]
   }
 ]

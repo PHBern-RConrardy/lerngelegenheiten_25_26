@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Linksammlung – LG 25 26</title>
+<title>Slides Listing – LG 25 26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,20 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-subdomains .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-subtitle:"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-subdomains'] = new List('listing-subdomains', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -132,7 +132,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -154,11 +154,11 @@ window.Quarto = {
 <span class="menu-text">Ilias</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Linksammlung.html" aria-current="page"> 
+    <a class="nav-link" href="./Linksammlung.html"> 
 <span class="menu-text">Linksammlung</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./slides.html"> 
+    <a class="nav-link active" href="./slides.html" aria-current="page"> 
 <span class="menu-text">Slides Listing</span></a>
   </li>  
 </ul>
@@ -172,15 +172,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="UEglMjBIZWlkZWxiZXJn">PH Heidelberg <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEhCZXJu">PHBern <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Linksammlung</h1>
+<h1 class="title">Slides Listing</h1>
 </div>
 
 
@@ -201,15 +199,24 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-subdomains">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-subdomains-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-subdomains'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
       <option value="listing-title-sort" data-direction="asc">
         Title
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
       </option>
     </select>
   </div>
@@ -223,72 +230,30 @@ window.Quarto = {
 <tr>
 
 <th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="UEhCZXJu" data-listing-title-sort="Arbeitenportal">
+<tr data-index="0" data-listing-date-sort="1759356000000" data-listing-file-modified-sort="1755078881572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="733" data-listing-title-sort="Digitalität und Datenschutz" data-listing-filename-sort="Datenschutz.qmd">
 <td>
-<a href="https://arbeitenportal.phbern.ch/" class="title listing-title">Arbeitenportal</a>
+<span class="listing-date">Oct 2, 2025</span>
 </td>
-
-</tr>
-
-<tr data-index="1" data-categories="UEhCZXJu" data-listing-title-sort="Komet">
 <td>
-<a href="https://kompetenzabbildung.phbern.ch/" class="title listing-title">Komet</a>
+<a href="./Slides/Datenschutz.html" class="title listing-title">Digitalität und Datenschutz</a>
 </td>
-
-</tr>
-
-<tr data-index="2" data-categories="UEhCZXJu" data-listing-title-sort="Softwarekatalog">
 <td>
-<a href="https://ssk.site.phbern.ch/" class="title listing-title">Softwarekatalog</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="UEglMjBIZWlkZWxiZXJn" data-listing-title-sort="LimeSurvey">
-<td>
-<a href="https://phheidelberg.limequery.com/" class="title listing-title">LimeSurvey</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-title-sort="Docata">
-<td>
-<a href="https://docata.ph-heidelberg.de/home" class="title listing-title">Docata</a>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-title-sort="Campusportal">
-<td>
-<a href="https://campus.ph-heidelberg.de/" class="title listing-title">Campusportal</a>
-</td>
-
-</tr>
-
-<tr data-index="6" data-categories="UEhCZXJu" data-listing-title-sort="QM-Pilot">
-<td>
-<a href="qmp.phbern.ch" class="title listing-title">QM-Pilot</a>
-</td>
-
-</tr>
-
-<tr data-index="7" data-categories="UEhCZXJu" data-listing-title-sort="Forum für Lehrpersonen">
-<td>
-<a href="https://forum.phbern.ch" class="title listing-title">Forum für Lehrpersonen</a>
-</td>
-
-</tr>
-
-<tr data-index="8" data-categories="UEhCZXJu" data-listing-title-sort="Richtlinien zur Texterstellung">
-<td>
-<a href="https://rzt.site.phbern.ch/richtlinien/" class="title listing-title">Richtlinien zur Texterstellung</a>
+<span class="listing-author">Richard Conrardy</span>
 </td>
 
 </tr>
