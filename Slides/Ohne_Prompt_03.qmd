@@ -1,0 +1,12 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag
+subtitle: Teil 3
+authors: 
+    - Dr. Florian Keller
+    - Richard Conrardy
+institute: PHBern, IS1
+date: 2025-09-25 14:15
+---

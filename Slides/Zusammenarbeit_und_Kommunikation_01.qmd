@@ -1,0 +1,10 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Digitale Zusammenarbeit und Kommunikation 
+subtitle: Teil 1
+author: Richard Conrardy
+institute: PHBern, IS1
+date: 2025-09-17 12:15
+---

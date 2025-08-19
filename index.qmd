@@ -25,19 +25,24 @@ listing:
     - title: Pädagogik, Psychologie, Digitalität 2 / F-Angebot
       path: https://ilias.phbern.ch/goto_phbern_crs_2588277.html
       categories: [IS2]
-    - title: Spezialisierung Informatik - Sammelgefäss HS25| Conrardy Richard François, Schär Sonja
+    - title: Spezialisierung Informatik - Sammelgefäss HS25
       path: https://ilias.phbern.ch/goto_phbern_crs_2607362.html
       categories: [IS1, SP13]
-    - title: Standortbestimmung Digitalität
+    - title: Kompetenzstandanalyse Digitalität
       categories: [Digitalität, IS1]
+      path: https://ilias.phbern.ch/go/crs/2606933
     - title: Medien & Informatik unterrichten
       path: https://ilias.phbern.ch/go/crs/2606932
       categories: [Digitalität, IS1]
     - title: Digitalität und Datenschutz
       categories: [Beurteilung, IS1]
+      path: https://ilias.phbern.ch/go/crs/2665336
     - title: Mediendidaktik
       path: https://ilias.phbern.ch/go/crs/2607118
       categories: [Planung, IS1]
+    - title: Digitale Medien in der Beurteilung einsetzen
+      path: https://ilias.phbern.ch/go/crs/2607204
+      categories: [Beurteilung, IS1]
     type: table
     fields: [title]
     categories: true

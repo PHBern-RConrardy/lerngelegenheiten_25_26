@@ -1,0 +1,11 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Digitale Medien in der Beurteilung einsetzen
+subtitle: Teil 1
+author: Richard Conrardy
+    
+institute: PHBern, IS1
+date: "2025-09-17 16:15"
+---

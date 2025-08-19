@@ -1,6 +1,7 @@
 project:
   type: website
 
+
 website:
   title: "LG 25 26"
   navbar:
@@ -10,11 +11,32 @@ website:
       - text: "Ilias"
         href: index.qmd
       - Linksammlung.qmd
+      - slides.qmd
 
 
 format:
+  
+  
   html:
     theme:
       - default
     css: styles.css
+  revealjs:
+    lang: de
+    date-format: "DD.MM.YYYY  [um]   HH:mm"
+    theme: [black, style/manuscript.scss]   # "black" base theme helps with dark mode
+    center: false
+    transition: none
+    slide-number: false
+    controls: false
+    progress: false
+    background-color: "#000000"
+    menu: false
+    bibliography: bibliography/richard.bib
+    mermaid:
+      theme: dark
+
+
+    
+    
     

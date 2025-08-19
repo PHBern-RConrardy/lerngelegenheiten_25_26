@@ -1,0 +1,11 @@
+---
+title: "Slides Listing"
+format: html
+listing:
+  contents: "Slides/*.qmd"
+  type: table
+  fields: [title, date]
+  sort: date
+  date-format: "DD.MM.YYYY [um] HH:mm"
+lang: De
+---

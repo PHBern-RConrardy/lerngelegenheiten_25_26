@@ -1,0 +1,173 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Digitalität und Datenschutz
+author: Richard Conrardy
+institute: PHBern, IS1
+date: 2025-10-02 18:15
+---
+
+# Lernziele
+
+- Den Begriff Datenschutz differenziert verwenden.
+- Eigenes Handeln im Berufsalltag hinsichtlich Datenschutz reflektieren.
+- Fundierte Grundlagen zu Recht, Datensicherheit und soziologischen Aspekten gewinnen.
+- Ansätze kennen, um Datenschutz im Unterricht zu thematisieren.
+
+# Datenschutz (als sozialwissenschaftlicher Begriff)
+
+## Datenschutz als gesellschaftliches Phänomen
+
+- Schutz der Privatsphäre und informationellen Selbstbestimmung  
+- Spannungsfeld: individuelle Freiheit vs. gesellschaftliches Interesse  
+- Vertrauen in Institutionen (Schule, Staat, Wirtschaft)  
+- Kulturelle Unterschiede (Europa / USA / Asien)
+
+## Chilling effect
+
+![Individuals' chilling effects [@buchi2022, S.3], eigene Darstellung](Datenschutz/chillingeffect.drawio.svg){#fig-chilling}
+
+## Privacy paradox [@barnes2006]
+
+* Wunsch nach Privatsphäre
+* Handeln als ob es egal wäre
+
+Begründungen @waldman2020 :
+
+* Cognitive biases
+* dark patterns
+
+## Diskussionsimpuls (5 Min)
+
+- Wie gehen Sie im Alltag mit Ihren Daten um?  
+- Beispiele für bewusste vs. unbewusste Datenfreigaben.  
+- Besprechen Sie mit einer Person neben Ihnen.
+
+## Fragen aus der Soziologie
+
+- Wem „gehören“ Daten?  
+- Welche Machtstrukturen entstehen durch Datensammlung?  
+- Wie verändert Überwachung das Verhalten?  
+- Datenschutz als Menschenrecht (Art. 8 EMRK)
+
+## Mini-Übung (10 Min)
+
+- Wählen Sie eine Social-Media-Plattform.  
+- Welche Daten geben Nutzer*innen preis?  
+- Welche Risiken entstehen daraus? Wer profitiert?  
+- Notieren Sie 2–3 Beobachtungen. Austausch in der Gruppe.
+
+# Datenschutzrecht
+
+## Bundesverfassung der Schweizerischen Eidgenossenschaft
+
+### Art. 13 Schutz der Privatsphäre
+
+Jede Person hat Anspruch auf Schutz vor Missbrauch ihrer persönlichen Daten.
+
+## Kantonales Datenschutzgesetz (KDSG, Kanton Bern)
+
+- Gegenwärtig in Überarbeitung  
+- Keine Bussen  
+- Besonders schützenswerte Daten: persönlicher Geheimbereich (Art. 3 Abs. 1)  
+- Gemeinden: eigene Aufsichtsstelle (Art. 33 Abs. 1)
+
+## Datenschutzgesetz (DSG, Bund)
+
+- Bundesgesetz, kompatibel mit DSGVO  
+- Ziel: Schutz der Persönlichkeit und Grundrechte  
+- Pflichten: Transparenz, Zweckbindung, Datensparsamkeit  
+- Rechte: Auskunft, Löschung, Berichtigung
+
+## Partnerarbeit (5 Min)
+
+- Nennen Sie zwei Pflichten für Verantwortliche im DSG.  
+- Wie wirken diese konkret im Schulkontext?
+
+# Datensicherheit
+
+## Die drei Schutzziele (zentral)
+
+1. **Vertraulichkeit** – Zugriff nur für Befugte  
+2. **Integrität** – Daten sind vollständig und unverändert  
+3. **Verfügbarkeit** – Daten sind bei Bedarf zugänglich
+
+## Technische und organisatorische Massnahmen
+
+- Technisch: Verschlüsselung, starke Passwörter/2FA, Zugriffsbeschränkung  
+- Organisatorisch: Schulungen, klare Zuständigkeiten, Notfall-/Backup-Pläne  
+- Grundsatz: Datenschutz ohne Datensicherheit ist nicht möglich.
+
+## Beispiele aus der Schule
+
+- Notenverwaltung und Zeugnisdruck  
+- Diagnosen, Förderpläne, Elterndaten  
+- Cloud-Dienste & Serverstandort  
+- Videokonferenzen und Aufzeichnungen
+
+## Gruppenarbeit: Risikoanalyse (10 Min)
+
+- Szenario wählen (z.B. Cloud-Dienst, Eltern-Chat, Videounterricht).  
+- Risiken für Vertraulichkeit, Integrität, Verfügbarkeit sammeln.  
+- 2–3 Massnahmen zur Reduktion festhalten. Austausch in der Gruppe.
+
+# Wissenschaftliche Perspektiven auf Datenschutz
+
+## Privacy Paradox
+
+- Menschen halten Datenschutz für wichtig, handeln aber oft widersprüchlich.  
+- Mögliche Gründe: Wissenslücken, wahrgenommener Nutzen, Gewohnheit und soziale Normen.  
+- Befunde: Entscheidungen häufig spontan und kontextabhängig.
+
+## Privacy–Convenience Trade-off
+
+- Höherer Komfort erhöht die Zustimmung zur Datenfreigabe (z.B. Standortfreigabe für Navigation).  
+- Auch sensible Daten werden eher geteilt, wenn der unmittelbare Nutzen hoch erscheint.
+
+## Empirische Befunde (Kurzüberblick)
+
+- Barnes (2006): Jugendliche teilen online oft mehr Informationen als offline – trotz Risikobewusstsein.  
+- Acquisti, Brandimarte & Loewenstein (2015): Datenschutzentscheidungen sind stark kontext- und emotionsabhängig.
+
+## Visualisierung: Komfort vs. Akzeptanz
+
+
+
+## Diskussionsimpuls (5 Min)
+
+- Wo haben Sie persönlich Komfort über Datenschutz gestellt?  
+- Was würden Sie heute anders entscheiden – und warum?
+
+# Datenschutz im Unterricht (Umsetzung)
+
+## Pädagogische Ansätze
+
+- Datenschutz im Rahmen der Medienbildung verankern  
+- App-/Web-Analyse: Welche Daten werden gesammelt?  
+- Diskussion zu digitalen Spuren und Profiling  
+- Reflexion zu Rollen (Schüler*in, Lehrperson, Eltern, Anbieter)
+
+## Unterrichtsidee (15 Min)
+
+- In Zweiergruppen eine Mini-Unterrichtseinheit (20 Min) skizzieren.  
+- Ziel: Schüler*innen können Risiken benennen und informierte Entscheidungen treffen.  
+- Beziehen Sie rechtliche Aspekte, Schutzziele und soziologische Perspektiven ein.  
+- Kurzer Gruppenaustausch (ohne Plenumspräsentation).
+
+# Reflexion
+
+- Wie beeinflussen meine Einstellungen zum Datenschutz mein Handeln als Lehrperson?  
+- Wo entstehen Zielkonflikte zwischen Organisation und Datenschutz?  
+- Welche Strategien setze ich ab morgen um?
+
+# Quellen & Weiterführendes
+
+- EDÖB – Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter  
+- KDSG Kanton Bern – Datenschutzgesetz des Kantons Bern  
+- DSG Schweiz – Bundesgesetz über den Datenschutz  
+- Educa.ch – Datenschutz im Bildungsbereich  
+- Acquisti, Brandimarte & Loewenstein (2015) – Privacy and human behavior in the age of information  
+- Barnes (2006) – „Privacy Paradox“ bei Jugendlichen
+
+## Bibliographie

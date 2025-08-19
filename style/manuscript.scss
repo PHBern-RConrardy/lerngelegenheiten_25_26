@@ -1,0 +1,100 @@
+/*-- scss:rules --*/
+:root {
+  --r-background-color: #000000;
+  --r-main-color: #ffffff;
+  --r-heading-color: #ffffff;
+  --r-link-color: #ffffff;
+  --r-link-color-hover: #f0f0f0;
+
+}
+
+.reveal { background: #000 !important; color: #fff !important; }
+.reveal .slides { text-align: left; }
+.reveal .slides section {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Headings APA style: bold, same size, left-aligned */
+.title-slide h1,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-size: 1em !important; 
+  margin: 0;
+  color: #fff !important;
+  text-shadow: none !important; /* kill reveal.js extra bold look */
+  line-height: 2;  
+}
+
+/* APA Level 1 heading: centered, bold */
+.reveal h1 {
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* APA Level 2 heading: left-aligned, bold */
+.reveal h2 {
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* APA Level 3 heading: left-aligned, bold italic */
+.reveal h3 {
+  font-style: italic;
+}
+
+.reveal .quarto-title-affiliation{
+  font-size: 1em !important;
+  margin-bottom: 0 !important; /* remove theme margin */
+}
+.reveal .quarto-title-affiliation:last-of-type {
+  margin-bottom: 2em; /* one extra double-space */
+}
+
+/* Title slide adjustments */
+.reveal .title {
+  font-weight: 700;
+  font-size: 1em !important;
+  margin: 0 0 0.6em 0;
+  color: #fff !important;
+  margin-bottom: 2em;
+}
+
+.reveal p,
+.reveal ul,
+.reveal ol,
+.reveal blockquote {
+  line-height: 1.5;
+  margin: 0 0 0.8em 0;
+  color: #fff !important;
+}
+
+.reveal ul, .reveal ol { padding-left: 1.4em; }
+
+.reveal table {
+  font-size: inherit;
+  border-collapse: collapse;
+}
+.reveal table th,
+.reveal table td {
+  border: 1px solid #fff;
+  padding: 4pt 6pt;
+}
+
+.reveal pre,
+.reveal code {
+  font-size: 90%;
+  line-height: 1.4;
+  background: #000 !important;
+  border: 1px solid #444 !important;
+  color: #fff !important;
+}
+
+.reveal a { color: #fff !important; text-decoration: underline; }
+.reveal a:hover { color: #f0f0f0 !important; }
+
+.reveal p{
+  margin: 0px
+}
