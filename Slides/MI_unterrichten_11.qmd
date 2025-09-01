@@ -1,0 +1,11 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Medien und Informatik unterrichten
+subtitle: Robotik
+author: Richard Conrardy
+institute: PHBern, IS1
+date: 2025-12-08 10:15
+room: "A004"
+---

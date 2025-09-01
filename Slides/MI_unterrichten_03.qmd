@@ -1,0 +1,13 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Medien und Informatik unterrichten
+subtitle: Medienbildung, KI und Datenschutz
+authors: 
+    - Michele Notari
+    - Richard Conrardy
+institute: PHBern, IS1
+date: 2025-10-13 10:15
+room: "A004"
+---

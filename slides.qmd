@@ -2,10 +2,41 @@
 title: "Slides Listing"
 format: html
 listing:
-  contents: "Slides/*.qmd"
+  contents: 
+    - "Slides/*.qmd"
+    - title: PPD 1 S - Teil 1
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_1_Wirkung,%20Gestaltung%20und%20Einsatz/PPL1_1-MedienGestaltungEinsatz.pptx?d=wc56ba04639c4448eb503fe2e9a431dab&csf=1&web=1&e=11q8th"
+      date: 2025-10-29 8:15
+      room: "C204"
+    - title: PPD 1 S - Teil 2
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_2_Lernen%20begleiten%20und%20f%C3%B6rdern/PPL1_2-Lernen%20begleiten%20und%20fo%CC%88rdern.pptx?d=w1d9c6ee5b9754575998ccafdd8351bbe&csf=1&web=1&e=Gipiea"
+      date: 2025-11-19 8:15
+      room: "A004"
+    - title: PPD 1 S - Teil 3
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_3_Beurteilen%20und%20R%C3%BCckmelden/PPL1_3_Ru%CC%88ckmelden_und_Beurteilen.pptx?d=we374b98a21fc40308f5570620fcd3858&csf=1&web=1&e=k2Gni3"
+      date: 2025-12-03 8:15
+      room: "A004"
+    - title: PPD 2 F - Teil 1
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_1_Jugend,%20Schule%20und%20Gesellschaft/PPL2_1-JugendSchuleUndGesellschaft.pptx?d=w7eabde189a9f48a79745ff378ad39650&csf=1&web=1&e=VQBXhd"
+      date: 2025-10-15 8:15
+      room: "Fab2e.110"
+    - title: PPD 2 F - Teil 2
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_2_Kommunkation%20und%20Kollaboration/PPL2_2_Kommunikation_und_Kollaboration.pptx?d=w8a2ac2763c9744a1909f078ecd06368d&csf=1&web=1&e=xtPxRv"
+      date: 2025-11-12 8:15
+      room: "Fab2e.110"
+    - title: PPD 2 B - Teil 1
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_1_Jugend,%20Schule%20und%20Gesellschaft/PPL2_1-JugendSchuleUndGesellschaft.pptx?d=w7eabde189a9f48a79745ff378ad39650&csf=1&web=1&e=VQBXhd"
+      date: today
+      room: "B302"
+    - title: PPD 2 B - Teil 3
+      path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_3_Szenarien%20und%20Trends/PPL2_3-UnterrichtszenarienUndTrends.pptx?d=w86edcb6c748e4f2ca8fa6d0cbff96cf2&csf=1&web=1&e=2fImAl"
+      date: today
+      room: "B302"
+
   type: table
-  fields: [title, date]
+  fields: [title, date, room]
   sort: date
   date-format: "DD.MM.YYYY [um] HH:mm"
+
 lang: De
 ---
