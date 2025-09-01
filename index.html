@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-categories"],
+      searchColumns: ["listing-title","listing-categories","listing-status"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -212,6 +212,9 @@ window.Quarto = {
       <option value="listing-title-sort" data-direction="asc">
         Title
       </option>
+      <option value="listing-status" data-direction="asc">
+        status
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -227,6 +230,10 @@ window.Quarto = {
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 
+<th>
+<a class="sort" data-sort="listing-status" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">status</a>
+</th>
+
 </tr>
 </thead>
 <tbody class="list">
@@ -235,12 +242,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2607151.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
 </td>
+<td>
+<span class="listing-status">online, slides unfertig</span>
+</td>
 
 </tr>
 
 <tr data-index="1" data-categories="QmV1cnRlaWx1bmclMkNJUzE=" data-listing-title-sort="Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot">
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2607209.html" class="title listing-title">Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot</a>
+</td>
+<td>
+<span class="listing-status">&nbsp;</span>
 </td>
 
 </tr>
@@ -249,12 +262,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2606931.html" class="title listing-title">Kick-off Leistungsnachweis Digitalität</a>
 </td>
+<td>
+<span class="listing-status">ok vom Team</span>
+</td>
 
 </tr>
 
 <tr data-index="3" data-categories="UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmclMkNQcmFrdGlrdW0lMjAxJTJDTGVocmVuJTIwdW5kJTIwTGVybmVu" data-listing-title-sort="Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag">
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2606891.html" class="title listing-title">Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag</a>
+</td>
+<td>
+<span class="listing-status">&nbsp;</span>
 </td>
 
 </tr>
@@ -263,12 +282,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2588286.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 1 / S-Angebot</a>
 </td>
+<td>
+<span class="listing-status">ok, ilias fertig</span>
+</td>
 
 </tr>
 
 <tr data-index="5" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 2 / Block Feb">
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2588276.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / Block Feb</a>
+</td>
+<td>
+<span class="listing-status">&nbsp;</span>
 </td>
 
 </tr>
@@ -277,12 +302,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2588277.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / F-Angebot</a>
 </td>
+<td>
+<span class="listing-status">ok, ilias fertig</span>
+</td>
 
 </tr>
 
 <tr data-index="7" data-categories="SVMxJTJDU1AxMw==" data-listing-title-sort="Spezialisierung Informatik - Sammelgefäss HS25">
 <td>
 <a href="https://ilias.phbern.ch/goto_phbern_crs_2607362.html" class="title listing-title">Spezialisierung Informatik - Sammelgefäss HS25</a>
+</td>
+<td>
+<span class="listing-status">Iliaskurs noch nicht fertig</span>
 </td>
 
 </tr>
@@ -291,12 +322,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/go/crs/2606933" class="title listing-title">Kompetenzstandanalyse Digitalität</a>
 </td>
+<td>
+<span class="listing-status">ok vom Team</span>
+</td>
 
 </tr>
 
 <tr data-index="9" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-title-sort="Medien &amp; Informatik unterrichten">
 <td>
 <a href="https://ilias.phbern.ch/go/crs/2606932" class="title listing-title">Medien &amp; Informatik unterrichten</a>
+</td>
+<td>
+<span class="listing-status">Aufteilung steht</span>
 </td>
 
 </tr>
@@ -305,6 +342,9 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/go/crs/2665336" class="title listing-title">Digitalität und Datenschutz</a>
 </td>
+<td>
+<span class="listing-status">ilias ok, folien offen</span>
+</td>
 
 </tr>
 
@@ -312,12 +352,18 @@ window.Quarto = {
 <td>
 <a href="https://ilias.phbern.ch/go/crs/2607118" class="title listing-title">Mediendidaktik</a>
 </td>
+<td>
+<span class="listing-status">online, fertig</span>
+</td>
 
 </tr>
 
 <tr data-index="12" data-categories="QmV1cnRlaWx1bmclMkNJUzE=" data-listing-title-sort="Digitale Medien in der Beurteilung einsetzen">
 <td>
 <a href="https://ilias.phbern.ch/go/crs/2607204" class="title listing-title">Digitale Medien in der Beurteilung einsetzen</a>
+</td>
+<td>
+<span class="listing-status">&nbsp;</span>
 </td>
 
 </tr>
