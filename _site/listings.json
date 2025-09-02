@@ -4,10 +4,6 @@
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/slides.html",
     "items": [
       "/Slides/Zusammenarbeit_und_Kommunikation_01.html",
@@ -23,5 +19,9 @@
       "/Slides/MI_unterrichten_07.html",
       "/Slides/MI_unterrichten_11.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]

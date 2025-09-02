@@ -26,11 +26,11 @@ listing:
       room: "Fab2e.110"
     - title: PPD 2 B - Teil 1
       path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_1_Jugend,%20Schule%20und%20Gesellschaft/PPL2_1-JugendSchuleUndGesellschaft.pptx?d=w7eabde189a9f48a79745ff378ad39650&csf=1&web=1&e=VQBXhd"
-      date: today
+      date: 2026-02-13 8:15
       room: "B302"
     - title: PPD 2 B - Teil 3
       path: "https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_3_Szenarien%20und%20Trends/PPL2_3-UnterrichtszenarienUndTrends.pptx?d=w86edcb6c748e4f2ca8fa6d0cbff96cf2&csf=1&web=1&e=2fImAl"
-      date: today
+      date: 2026-02-13 10:15
       room: "B302"
 
   type: table

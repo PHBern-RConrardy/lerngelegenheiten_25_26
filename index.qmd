@@ -37,8 +37,12 @@ listing:
       categories: [Digitalität, IS1]
       path: https://ilias.phbern.ch/go/crs/2606933
       status: "ok vom Team"
-    - title: Medien & Informatik unterrichten
+    - title: Medien & Informatik unterrichten (Seminar)
       path: https://ilias.phbern.ch/go/crs/2606932
+      categories: [Digitalität, IS1]
+      status: "Aufteilung steht"
+    - title: Medien & Informatik unterrichten (Blockkurs)
+      path: https://ilias.phbern.ch/go/crs/2606935
       categories: [Digitalität, IS1]
       status: "Aufteilung steht"
     - title: Digitalität und Datenschutz
