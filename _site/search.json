@@ -179,7 +179,7 @@
     "href": "Slides/Zusammenarbeit_und_Kommunikation_01.html#section",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "",
-    "text": "Wer Personendaten bearbeitet, sorgt für ihre Sicherung.\n\nArt. 17 Abs. 1 KDSG"
+    "text": "Abbildung 1: Framework der Rollen der Schulkommunikation im digitalen Wandel der Schulen, Rosenberger u. a. (2023) CC BY-NC-ND 4.0"
   },
   {
     "objectID": "Slides/Zusammenarbeit_und_Kommunikation_01.html#wie-arbeiten-sie-digital-zusammen",
@@ -207,7 +207,7 @@
     "href": "Slides/Zusammenarbeit_und_Kommunikation_01.html#section-1",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "",
-    "text": "Schulkommission, Schulleitung, Lehrerschaft und Eltern sind gegenseitig zur Zusammenarbeit verpflichtet.\n\nArt. 31 Abs. 2 VSG"
+    "text": "Abbildung 2: Neun Handlungsdimensionen der Schulkommunikation im digitalen Wandel Rosenberger u. a. (2023) CC BY-NC-ND 4.0"
   },
   {
     "objectID": "Slides/Zusammenarbeit_und_Kommunikation_01.html#ziele-der-veranstaltung",
@@ -320,5 +320,19 @@
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Sichere Kommunikation – was heisst das?",
     "text": "Sichere Kommunikation – was heisst das?\n\n\n\n\n\n\n\n\nBegriff\nBedeutung\nRelevanz im Schulkontext\n\n\n\n\nTransportverschlüsselung\nVerbindung zwischen Servern verschlüsselt\nStandard bei https, Mails mit TLS\n\n\nEnde-zu-Ende-Verschlüsselung (E2EE)\nNur Sender und Empfänger können lesen\nSignal, Klapp (bedingt)\n\n\nZwei-Faktor-Authentifizierung (2FA)\nZwei Schritte beim Login\nMS-Konto, Schulplattformen"
+  },
+  {
+    "objectID": "Slides/Zusammenarbeit_und_Kommunikation_01.html#bibliographie",
+    "href": "Slides/Zusammenarbeit_und_Kommunikation_01.html#bibliographie",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nRosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes Breitschaft, Eliane Burri, Martin Fugmann, Sarah Genner, u. a. 2023. „Wie Gestalte Ich Die Kommunikation Meiner Schule Im Digitalen Wandel?“ In Digital Leadership – Schulen Im Digitalen Wandel Führen, herausgegeben von Johannes Breitschaft, Tobias Röhl, Eliane Burri, und Nicole Wespi. hep Verlag. https://doi.org/10.36933/9783035523393."
+  },
+  {
+    "objectID": "Slides/Zusammenarbeit_und_Kommunikation_01.html#section-2",
+    "href": "Slides/Zusammenarbeit_und_Kommunikation_01.html#section-2",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "",
+    "text": "Abbildung 3: Typische Spannungsfelder der Schulkommunikation, Rosenberger u. a. (2023) CC BY-NC-ND 4.0"
   }
 ]

@@ -242,7 +242,7 @@ room
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1758104100000" data-listing-file-modified-sort="1756718750350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Digitale Zusammenarbeit und Kommunikation" data-listing-filename-sort="Zusammenarbeit_und_Kommunikation_01.qmd">
+<tr data-index="0" data-listing-date-sort="1758104100000" data-listing-file-modified-sort="1757582966704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="937" data-listing-title-sort="Digitale Zusammenarbeit und Kommunikation" data-listing-filename-sort="Zusammenarbeit_und_Kommunikation_01.qmd">
 <td>
 <a href="./Slides/Zusammenarbeit_und_Kommunikation_01.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
 </td>
@@ -565,7 +565,7 @@ room
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/phbern-rconrardy\.github\.io\/lerngelegenheiten_25_26\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

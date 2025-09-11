@@ -89,7 +89,7 @@ Wählen Sie ein Tool aus und beurteilen Sie es anhand folgender Kriterien:
 
 Ergebnisse: je Gruppe 1 kurze Präsentation (2 Minuten)
 
-# 3. Kommunikationsformen und -formate
+# Kommunikationsformen und -formate
 
 ## Mündlich, schriftlich, synchron, asynchron
 
@@ -99,7 +99,6 @@ Ergebnisse: je Gruppe 1 kurze Präsentation (2 Minuten)
 | Schriftlich (asynchron) | Mail, Klapp, Teams-Kommentar | nachvollziehbar, dokumentiert | Missverständnisse, Verzögerung |
 | Hybrid             | Online-Sitzung mit Protokoll | verbindlich, effizient         | hoher Koordinationsbedarf      |
 
----
 
 ## Abgrenzung: Informations- vs. Dialogformate
 
@@ -183,3 +182,21 @@ Diskussion:
 - Wie schätze ich meine Kommunikation mit Eltern oder Schulleitung ein?  
 - Welche Kenntnisse fehlen mir noch?
 
+# Wissenschaftliche(re) Sicht
+
+##
+![Framework der Rollen der Schulkommunikation im digitalen Wandel der Schulen, @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/ZuK_Framework_Rosenberg23_CC_NC_ND.svg){#fig-1}
+
+
+## 
+
+![Neun Handlungsdimensionen der Schulkommunikation im digitalen Wandel @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/9Handlungsdimensionen_Baumgartner23_CC_NC_ND.svg){#fig-pyramid}
+
+
+##
+
+![Typische Spannungsfelder der Schulkommunikation, @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/ZuK_Rosenberger23_CC_NC_ND.svg){#fig-1}
+
+
+
+## Bibliographie
