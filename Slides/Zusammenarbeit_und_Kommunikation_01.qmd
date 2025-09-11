@@ -10,3 +10,176 @@ date: 2025-09-17 12:15
 room: "B303"
 ---
 
+
+
+## Ziele der Veranstaltung
+
+- Reflexion der eigenen Praxis im digitalen Austausch mit Anspruchsgruppen  
+- Einblick in Tools und Praktiken im Kanton Bern  
+- Einordnung in rechtliche und technische Rahmenbedingungen  
+- Bearbeitung von Fallbeispielen aus dem Schulalltag
+
+# Anspruchsgruppen der Schule
+
+## Wer gehört dazu?
+
+- Schulleitung  
+- Lehrerkollegium  
+- Eltern und Erziehungsberechtigte  
+- Schulkommission  
+- Externe Fachstellen (z. B. Sozialdienste, Logopädie, Schulpsychologischer Dienst)  
+- Bildungsverwaltung / Behörden
+
+## Zusammenarbeit laut Gesetzgebung
+
+> Schulkommission, Schulleitung, Lehrerschaft und Eltern sind gegenseitig zur Zusammenarbeit verpflichtet.  
+>
+:::quelle
+[Art. 31 Abs. 2 Volksschulgesetz, BE](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210/art/73)
+:::
+
+Die Mitwirkung erfolgt im Rahmen der Zuständigkeiten. Digitale Mittel können zur Erleichterung der Zusammenarbeit beitragen, ersetzen aber keine Haltung.
+
+
+## Reflexion: Eigene Erfahrungen
+
+Kurze Einzelarbeit:  
+Beantworten Sie schriftlich folgende Fragen:
+
+- Mit welchen Anspruchsgruppen standen Sie bereits digital in Kontakt?  
+- Welche Tools kamen zum Einsatz?  
+- Was hat gut funktioniert, was war herausfordernd?
+
+## Austausch im Plenum
+
+Leitfragen zur Diskussion:
+
+- Welche Kommunikationswege haben sich bewährt?  
+- Wie unterscheiden sich Erwartungen und Realität bei Eltern, Schulleitung, Kollegium?  
+- Wo besteht Handlungsbedarf?
+
+
+
+# Digitale Tools in der Praxis
+
+## Überblick: Im Kanton Bern verbreitet
+
+| Tool          | Zielgruppe         | Zweck                          |
+|---------------|--------------------|-------------------------------|
+| Klapp         | Eltern             | Push-Kommunikation, Rückmeldungen  
+| Lehreroffice  | Schulleitung, LP   | Verwaltung, Schülerdaten, Zeugnisse  
+| Teams/SharePoint | Kollegium       | Kollaboration, Dateiablage  
+| E-Mail        | Alle Gruppen       | Formelle schriftliche Kommunikation  
+| Private Tools (WhatsApp, Signal) | inoffiziell | Kurzinformationen, informelle Koordination
+
+
+---
+
+## Analyse von Tools
+
+Partnerarbeit:
+
+Wählen Sie ein Tool aus und beurteilen Sie es anhand folgender Kriterien:
+
+- Funktionalität  
+- Zielgruppengerechte Kommunikation  
+- Datenschutz  
+- Integration in den Schulalltag  
+- Akzeptanz bei den Beteiligten
+
+Ergebnisse: je Gruppe 1 kurze Präsentation (2 Minuten)
+
+# 3. Kommunikationsformen und -formate
+
+## Mündlich, schriftlich, synchron, asynchron
+
+| Kommunikationsform | Beispiele            | Vorteile                        | Risiken                        |
+|--------------------|----------------------|----------------------------------|-------------------------------|
+| Mündlich (synchron)| Telefongespräch, Videokonferenz | direkt, dialogisch             | wenig dokumentiert             |
+| Schriftlich (asynchron) | Mail, Klapp, Teams-Kommentar | nachvollziehbar, dokumentiert | Missverständnisse, Verzögerung |
+| Hybrid             | Online-Sitzung mit Protokoll | verbindlich, effizient         | hoher Koordinationsbedarf      |
+
+---
+
+## Abgrenzung: Informations- vs. Dialogformate
+
+- **Information:** einseitige Mitteilung  
+  - z. B. Elternbrief, Push-Mitteilung via Klapp  
+- **Dialog:** bidirektionale Kommunikation  
+  - z. B. Rückmeldegespräch, Konfliktklärung per Videocall
+
+Diskussion:  
+Welche Formate sind wofür angemessen?
+
+# 4. Rechtliche Grundlagen
+
+## Datenschutzrechtliche Anforderungen (Kanton Bern)
+
+- Personendaten dürfen nur mit gesetzlicher Grundlage bearbeitet werden  
+- Gesundheitsdaten gelten als besonders schützenswert  
+- Die Schule ist verantwortlich für den Schutz der Daten  
+
+:::quelle
+[BSG 152.04 - Datenschutzgesetz (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+. . .
+
+> Wer Personendaten bearbeitet, sorgt für ihre Sicherung.
+>
+:::quelle
+[Art. 17 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+## Sichere Kommunikation – was heisst das?
+
+| Begriff                     | Bedeutung                          | Relevanz im Schulkontext           |
+|-----------------------------|-------------------------------------|------------------------------------|
+| Transportverschlüsselung    | Verbindung zwischen Servern verschlüsselt | Standard bei https, Mails mit TLS |
+| Ende-zu-Ende-Verschlüsselung (E2EE) | Nur Sender und Empfänger können lesen | Signal, Klapp (bedingt)           |
+| Zwei-Faktor-Authentifizierung (2FA) | Zwei Schritte beim Login          | MS-Konto, Schulplattformen         |
+
+
+# Fallbeispiele
+
+## Fall 1: Elterninformation
+
+Eine Lehrperson informiert Eltern per Mail über die Leistungen eines Kindes.
+
+Fragen zur Bearbeitung:
+
+- Ist das rechtlich zulässig?  
+- Welche Alternativen gibt es?  
+- Wie könnte man die Nachricht differenzierter und sicherer gestalten?
+
+Bearbeitung in Kleingruppen, anschliessend Austausch
+
+---
+
+## Fall 2: Konflikt im Kollegium
+
+Eine Lehrperson meldet sich per WhatsApp bei der Schulleitung, um sich über Kollegiumsinterna zu beschweren. Der Verlauf wird an Dritte weitergeleitet.
+
+Diskussion:
+
+- Welche Probleme entstehen hier?  
+- Welche Kommunikationskanäle wären angemessen?  
+- Welche Rolle spielt Vertraulichkeit?
+
+
+# Strategien für professionelle Kommunikation
+
+## Empfehlungen aus der Praxis
+
+- Kommunikationswege im Team verbindlich absprechen  
+- Klare Regelungen zur Toolnutzung an der Schule etablieren  
+- Eltern frühzeitig über verwendete Tools und deren Zweck informieren  
+- Keine besonders schützenswerten Daten über unsichere Kanäle übermitteln  
+- Professionelle Sprache auch digital wahren
+
+## Leitfragen zur Selbstverortung
+
+- Wie sicher fühle ich mich im Umgang mit digitalen Tools?  
+- Wie schätze ich meine Kommunikation mit Eltern oder Schulleitung ein?  
+- Welche Kenntnisse fehlen mir noch?
+

@@ -74,13 +74,25 @@
 .reveal ul, .reveal ol { padding-left: 1.4em; }
 
 .reveal table {
-  font-size: inherit;
+  font-size: 1.8rem;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 .reveal table th,
 .reveal table td {
-  border: 1px solid #fff;
+  border: none;
+  border-top: 1px solid white; /* horizontale Linien */
   padding: 4pt 6pt;
+  text-align: left;
+  color: white;
+}
+.reveal table thead th {
+  border-bottom: 2px solid #000; /* fette Linie unter Kopfzeile */
+  border-top: none; /* kein Strich über Kopfzeile */
+}
+
+.reveal table tbody tr:last-child td {
+  border-bottom: 1px solid #000; /* unterster Strich */
 }
 
 .reveal pre,
@@ -97,4 +109,26 @@
 
 .reveal p{
   margin: 0px
+}
+
+.reveal ul,
+.reveal ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.reveal ul li,
+.reveal ol li {
+  text-indent: -1em;   /* Bullet nach links ziehen */
+  padding-left: 1em;   /* Textblock nach rechts rücken */
+
+}
+
+.reveal div.quelle {
+  font-size: 1.2rem;   
+  text-align: right;      
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ccc;           /* dezente Schriftfarbe, z. B. hellgrau */
 }
