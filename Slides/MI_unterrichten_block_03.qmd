@@ -1,0 +1,12 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Medien und Informatik unterrichten
+subtitle: Datenschutz- und Urheberrecht
+author: Richard Conrardy
+institute: PHBern, IS1
+date: 2025-10-09 14:15
+room: ""
+---
+## 

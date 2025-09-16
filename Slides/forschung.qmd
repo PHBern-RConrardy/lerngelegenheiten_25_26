@@ -1,0 +1,11 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Individualisierte Lerngelegenheiten mit Lernbegleitung 
+subtitle: Datenschutz
+author: Richard Conrardy
+institute: PHBern, IS1
+date: 2025-12-02 16:15
+room: ""
+---
