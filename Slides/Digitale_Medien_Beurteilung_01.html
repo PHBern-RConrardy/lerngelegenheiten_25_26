@@ -28,8 +28,28 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-4de457beab7141f1e21b066be25c7093.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9be7326239ebda32cb40c7df9eec2b06.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -45,6 +65,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -143,11 +164,191 @@ Richard Conrardy
 
   <p class="date">17.09.2025 um 16:15</p>
 </section>
-<section class="slide level2">
-
-
+<section>
+<section id="organisatorisches" class="title-slide slide level1 center">
+<h1>Organisatorisches</h1>
 
 </section>
+<section id="ilias" class="slide level2">
+<h2>Ilias</h2>
+<ul>
+<li>2 Treffen: 17.9. &amp; 1.10</li>
+<li>Materialien &amp; Abgaben via ILIAS</li>
+<li>BYOD: Laptop mitbringen</li>
+</ul>
+</section>
+<section id="workload" class="slide level2">
+<h2>Workload</h2>
+<ul>
+<li>2 × 90 Min. Präsenz</li>
+<li>2–3 Stunden Eigenleistung</li>
+<li>Abgabe: digitales Prüfprodukt + Reflexion</li>
+</ul>
+</section></section>
+<section>
+<section id="beurteilung" class="title-slide slide level1 center">
+<h1>Beurteilung</h1>
+
+</section>
+<section id="was-ist-eine-gute-prüfung" class="slide level2" data-background-color="var(--bg-activity)">
+<h2>Was ist eine gute Prüfung?</h2>
+<blockquote>
+<p>Was macht einen guten Beurteilungsanlass aus?</p>
+</blockquote>
+<p><span class="math inline">\(\rightarrow\)</span> Austausch mit Person neben Ihnen (3 Min)</p>
+<p><span class="math inline">\(\rightarrow\)</span> Sammlung auf Ilias</p>
+</section>
+<section id="learning-outcomes" class="slide level2">
+<h2>Learning Outcomes</h2>
+<ul>
+<li>Sie analysieren und vergleichen digitale Beurteilungsformate</li>
+<li>Sie erstellen einfache digitale Prüfungssettings (formativ &amp; summativ)</li>
+<li>Sie berücksichtigen didaktische, technische und ethische Aspekte</li>
+<li>Sie können Tools beurteilen hinsichtlich Fairness, Automatisierung und Feedbackqualität</li>
+</ul>
+</section>
+<section id="formativ-vs.-summativ" class="slide level2">
+<h2>Formativ vs.&nbsp;Summativ</h2>
+<ul>
+<li>in Bern LP21, <a href="https://be.lehrplan.ch/index.php?code=e%7C92%7C5#102mWGPxSAR8AFePDMWqVh45MaUsKm">5.2.3. AHB</a></li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bildungs-undkulturdirektiondeskantonsbern2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
+</div>
+<div class="columns">
+<div class="column">
+<p><strong>Formativ</strong></p>
+<blockquote>
+<p>„Assessment for learning“</p>
+</blockquote>
+<p><span class="math inline">\(\longrightarrow\)</span> Lernunterstützung, Rückmeldung, Anpassung von Unterricht</p>
+</div><div class="column">
+<p><strong>Summativ</strong></p>
+<blockquote>
+<p>„Assessment of learning“</p>
+</blockquote>
+<p><span class="math inline">\(\longrightarrow\)</span> Bilanz, Selektion, Zertifizierung</p>
+</div></div>
+</section>
+<section id="weshalb-digitale-medien" class="slide level2">
+<h2>Weshalb digitale Medien?</h2>
+<ul>
+<li>Effizienzgewinne</li>
+<li>Wiederverwendbarkeit und Versionierung</li>
+<li>Multimedialität und Interaktivität</li>
+<li>Lernbegleitung statt nur Kontrolle</li>
+</ul>
+</section>
+<section id="mc-tests" class="slide level2">
+<h2>MC-Tests</h2>
+<h3 id="vorteile">Vorteile</h3>
+<ul>
+<li>Reproduktion &amp; Verständnis prüfen (Fakten, Begriffe, einfache Konzepte)</li>
+<li>Automatisierte Auswertung möglich</li>
+<li>Objektivität hoch bei gutem Itemdesign</li>
+<li>Reliabilität sehr gut.</li>
+</ul>
+</section>
+<section id="mc-tests-1" class="slide level2">
+<h2>MC-Tests</h2>
+<h3 id="herausforderungen">Herausforderungen</h3>
+<ul>
+<li>gute Distraktoren</li>
+<li>Taxonomiestufen beachten <span class="citation" data-cites="anderson2001">Anderson und Krathwohl (<a href="#/bibliographie" role="doc-biblioref" onclick="">2001</a>)</span></li>
+<li>Rateanwortverhalten vermeiden</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<p>MS-Forms, Google-Forms, LearningView, Pen &amp; Paper</p>
+<div class="quelle">
+<p>Weitere Literatur: <span class="citation" data-cites="porst2014">Porst (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span>, <span class="citation" data-cites="krebs2004">Krebs (<a href="#/bibliographie" role="doc-biblioref" onclick="">2004</a>)</span></p>
+</div>
+</section>
+<section id="beispiel" class="slide level2">
+<h2>Beispiel</h2>
+<p>Lineare Gleichungen mit einer Unbekannten können:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">keine Lösung haben.</label></li>
+<li><label><input type="checkbox">genau eine Lösung haben.</label></li>
+<li><label><input type="checkbox">genau zwei Lösungen haben.</label></li>
+<li><label><input type="checkbox">mehr als zwei Lösungen haben.</label></li>
+</ul>
+</section>
+<section id="beispiel-2" class="slide level2">
+<h2>Beispiel 2</h2>
+<p>Daten vs.&nbsp;Informationen, welche Aussagen sind wahr?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Daten sind immer wahr, Informationen können falsch sein.<br>
+</label></li>
+<li><label><input type="checkbox">Daten enthalten schon Bedeutung.<br>
+</label></li>
+<li><label><input type="checkbox">Daten werden erst durch Interpretation zu Informationen.<br>
+</label></li>
+<li><label><input type="checkbox">Informationen sind nur in Zahlen darstellbar.</label></li>
+</ul>
+<div class="quelle">
+<p>vgl. <a href="https://derwirtschaftsinformatiker.de/2012/09/12/it-management/wissenspyramide-wiki/">Wissenspyramide</a></p>
+</div>
+</section>
+<section id="übung" class="slide level2" data-background-color="var(--bg-activity)">
+<h2>Übung</h2>
+<p>Formulieren Sie je 2 MC-Fragen, einmal summativ und einmal formativ.</p>
+<p>Besprechen Sie die Fragen mit ihrem Nachbarn.</p>
+</section>
+<section id="gebote-der-umfrageformulierung" class="slide level2 smaller scrollable">
+<h2>10 Gebote der (Um)Frageformulierung</h2>
+<ol type="1">
+<li>Du sollst einfache, unzweideutige Begriffe verwenden, die von allen Befragten in gleicher Weise verstanden werden!<br>
+</li>
+<li>Du sollst lange und komplexe Fragen vermeiden!<br>
+</li>
+<li>Du sollst hypothetische Fragen vermeiden!<br>
+</li>
+<li>Du sollst doppelte Stimuli und Verneinungen vermeiden!<br>
+</li>
+<li>Du sollst Unterstellungen und suggestive Fragen vermeiden!<br>
+</li>
+<li>Du sollst Fragen vermeiden, die auf Informationen abzielen, über die viele Befragte mutmaßlich nicht verfügen!<br>
+</li>
+<li>Du sollst Fragen mit eindeutigem zeitlichen Bezug verwenden!<br>
+</li>
+<li>Du sollst Antwortkategorien verwenden, die erschöpfend und disjunkt (überschneidungsfrei) sind!<br>
+</li>
+<li>Du sollst sicherstellen, dass der Kontext einer Frage sich nicht (unkontrolliert) auf deren Beantwortung auswirkt!<br>
+</li>
+<li>Du sollst unklare Begriffe definieren!</li>
+</ol>
+<div class="quelle">
+<p><span class="citation" data-cites="porst2014">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Porst 2014, 99</a>)</span></p>
+</div>
+</section>
+<section id="textverarbeitungsprogramme" class="slide level2">
+<h2>Textverarbeitungsprogramme</h2>
+<ul>
+<li>MSWord</li>
+<li><span class="math inline">\(\LaTeX\)</span> und Quarto</li>
+<li>Versionierung</li>
+</ul>
+<p>Empfehlung: Sauberes Layout, Antwortfelder vorgeben</p>
+</section>
+<section id="bibliographie" class="slide level2 smaller scrollable">
+<h2>Bibliographie</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-anderson2001" class="csl-entry" role="listitem">
+Anderson, Lorin W., und David R. Krathwohl, Hrsg. 2001. <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of <span>Bloom</span>’s Taxonomy of Educational Objectives</em>. Complete ed. New York: Longman.
+</div>
+<div id="ref-bildungs-undkulturdirektiondeskantonsbern2016" class="csl-entry" role="listitem">
+Bildungs- und Kulturdirektion des Kantons Bern, Hrsg. 2016. <span>„Lehrplan F<span>ü</span>r Die <span>Volksschule</span> Des <span>Kantons Bern</span>“</span>.
+</div>
+<div id="ref-krebs2004" class="csl-entry" role="listitem">
+Krebs, René. 2004. <span>„<span>Anleitung zur Herstellung von MC-Fragen und MC-Pr<span>ü</span>fungen f<span>ü</span>r die <span>ä</span>rztliche Ausbildung</span>“</span>. Abteilung f<span>ü</span>r Assessment und Evaluation AAE.
+</div>
+<div id="ref-porst2014" class="csl-entry" role="listitem">
+Porst, Rolf. 2014. <em><span>Fragebogen: Ein Arbeitsbuch</span></em>. Wiesbaden: Springer Fachmedien Wiesbaden. <a href="https://doi.org/10.1007/978-3-658-02118-4">https://doi.org/10.1007/978-3-658-02118-4</a>.
+</div>
+</div>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
