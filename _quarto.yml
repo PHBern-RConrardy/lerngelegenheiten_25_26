@@ -35,6 +35,8 @@ format:
     bibliography: bibliography/richard.bib
     mermaid:
       theme: dark
+    scrollable: true
+    linkcolor: "#27E4F5"
 
 
     

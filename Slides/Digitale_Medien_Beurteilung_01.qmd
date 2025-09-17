@@ -9,3 +9,153 @@ institute: PHBern, IS1
 date: "2025-09-17 16:15 "
 room: "C301"
 ---
+
+# Organisatorisches
+
+## Ilias
+
+- 2 Treffen: 17.9. & 1.10
+- Materialien & Abgaben via ILIAS
+- BYOD: Laptop mitbringen
+
+## Workload
+
+- 2 × 90 Min. Präsenz
+- 2–3 Stunden Eigenleistung
+- Abgabe: digitales Prüfprodukt + Reflexion
+
+# Beurteilung
+
+## Was ist eine gute Prüfung? {background-color="var(--bg-activity)"}
+
+> Was macht einen guten Beurteilungsanlass aus?
+
+$\rightarrow$ Austausch mit Person neben Ihnen (3 Min)
+
+$\rightarrow$ Sammlung auf Ilias
+
+## Learning Outcomes
+
+- Sie analysieren und vergleichen digitale Beurteilungsformate
+- Sie erstellen einfache digitale Prüfungssettings (formativ & summativ)
+- Sie berücksichtigen didaktische, technische und ethische Aspekte
+- Sie können Tools beurteilen hinsichtlich Fairness, Automatisierung und Feedbackqualität
+
+## Formativ vs. Summativ
+
+* in Bern LP21, [5.2.3. AHB](https://be.lehrplan.ch/index.php?code=e|92|5#102mWGPxSAR8AFePDMWqVh45MaUsKm)
+
+:::quelle
+@bildungs-undkulturdirektiondeskantonsbern2016
+:::
+
+:::::: {.columns}
+::: {.column}
+
+**Formativ**  
+
+> „Assessment for learning“  
+
+$\longrightarrow$ Lernunterstützung, Rückmeldung, Anpassung von Unterricht
+
+:::
+::: {.column}
+
+**Summativ**  
+
+> „Assessment of learning“  
+
+$\longrightarrow$ Bilanz, Selektion, Zertifizierung
+
+:::
+::::::
+
+
+
+## Weshalb digitale Medien?
+
+- Effizienzgewinne
+- Wiederverwendbarkeit und Versionierung
+- Multimedialität und Interaktivität
+- Lernbegleitung statt nur Kontrolle
+
+## MC-Tests
+
+### Vorteile
+
+- Reproduktion & Verständnis prüfen (Fakten, Begriffe, einfache Konzepte)
+- Automatisierte Auswertung möglich
+- Objektivität hoch bei gutem Itemdesign
+- Reliabilität sehr gut.
+
+## MC-Tests
+
+### Herausforderungen
+
+- gute Distraktoren
+- Taxonomiestufen beachten @anderson2001
+- Rateanwortverhalten vermeiden
+
+### Tools
+
+MS-Forms, Google-Forms, LearningView, Pen & Paper
+
+:::quelle
+Weitere Literatur: @porst2014, @krebs2004
+:::
+
+## Beispiel
+
+Lineare Gleichungen mit einer Unbekannten können:
+
+- [ ] keine Lösung haben.
+- [ ] genau eine Lösung haben.
+- [ ] genau zwei Lösungen haben.
+- [ ] mehr als zwei Lösungen haben.
+
+## Beispiel 2
+
+Daten vs. Informationen, welche Aussagen sind wahr?
+
+- [ ] Daten sind immer wahr, Informationen können falsch sein.  
+- [ ] Daten enthalten schon Bedeutung.  
+- [ ] Daten werden erst durch Interpretation zu Informationen.  
+- [ ] Informationen sind nur in Zahlen darstellbar.
+
+:::quelle
+vgl. [Wissenspyramide](https://derwirtschaftsinformatiker.de/2012/09/12/it-management/wissenspyramide-wiki/)
+:::
+
+## Übung {background-color="var(--bg-activity)"}
+
+Formulieren Sie je 2 MC-Fragen, einmal summativ und einmal formativ.
+
+Besprechen Sie die Fragen mit ihrem Nachbarn.
+
+## 10 Gebote der (Um)Frageformulierung {.smaller}
+
+1. Du sollst einfache, unzweideutige Begriffe verwenden, die von allen Befragten in gleicher Weise verstanden werden!  
+2. Du sollst lange und komplexe Fragen vermeiden!  
+3. Du sollst hypothetische Fragen vermeiden!  
+4. Du sollst doppelte Stimuli und Verneinungen vermeiden!  
+5. Du sollst Unterstellungen und suggestive Fragen vermeiden!  
+6. Du sollst Fragen vermeiden, die auf Informationen abzielen, über die viele Befragte mutmaßlich nicht verfügen!  
+7. Du sollst Fragen mit eindeutigem zeitlichen Bezug verwenden!  
+8. Du sollst Antwortkategorien verwenden, die erschöpfend und disjunkt (überschneidungsfrei) sind!  
+9. Du sollst sicherstellen, dass der Kontext einer Frage sich nicht (unkontrolliert) auf deren Beantwortung auswirkt!  
+10. Du sollst unklare Begriffe definieren!  
+
+:::quelle
+[@porst2014, S.99]
+:::
+
+## Textverarbeitungsprogramme
+
+* MSWord
+* $\LaTeX$ und Quarto
+* Versionierung 
+
+Empfehlung: Sauberes Layout, Antwortfelder vorgeben
+
+
+## Bibliographie

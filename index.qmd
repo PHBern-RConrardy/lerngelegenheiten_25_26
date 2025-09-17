@@ -56,6 +56,7 @@ listing:
     - title: Digitale Medien in der Beurteilung einsetzen
       path: https://ilias.phbern.ch/go/crs/2607204
       categories: [Beurteilung, IS1]
+      status: ilias ok, slides not
     type: table
     fields: [title, status]
     categories: true

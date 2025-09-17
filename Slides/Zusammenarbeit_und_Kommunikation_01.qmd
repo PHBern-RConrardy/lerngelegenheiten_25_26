@@ -62,7 +62,7 @@ Leitfragen zur Diskussion:
 
 # Digitale Tools in der Praxis
 
-## Überblick: Im Kanton Bern verbreitet
+## Überblick: Im Kanton Bern verbreitet {.smaller}
 
 | Tool          | Zielgruppe         | Zweck                          |
 |---------------|--------------------|-------------------------------|
@@ -73,9 +73,7 @@ Leitfragen zur Diskussion:
 | Private Tools (WhatsApp, Signal) | inoffiziell | Kurzinformationen, informelle Koordination
 
 
----
-
-## Analyse von Tools
+## Analyse von Tools {.smaller}
 
 Partnerarbeit:
 
@@ -91,7 +89,7 @@ Ergebnisse: je Gruppe 1 kurze Präsentation (2 Minuten)
 
 # Kommunikationsformen und -formate
 
-## Mündlich, schriftlich, synchron, asynchron
+## Mündlich, schriftlich, synchron, asynchron {.smaller}
 
 | Kommunikationsform | Beispiele            | Vorteile                        | Risiken                        |
 |--------------------|----------------------|----------------------------------|-------------------------------|
@@ -130,7 +128,7 @@ Welche Formate sind wofür angemessen?
 [Art. 17 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
 :::
 
-## Sichere Kommunikation – was heisst das?
+## Sichere Kommunikation – was heisst das? {.smaller}
 
 | Begriff                     | Bedeutung                          | Relevanz im Schulkontext           |
 |-----------------------------|-------------------------------------|------------------------------------|
@@ -181,6 +179,8 @@ Diskussion:
 - Wie sicher fühle ich mich im Umgang mit digitalen Tools?  
 - Wie schätze ich meine Kommunikation mit Eltern oder Schulleitung ein?  
 - Welche Kenntnisse fehlen mir noch?
+
+[$\rightarrow$ Padlet](https://phbern.padlet.org/richardconrardy/digitale-zusammenarbeit-und-kommunikation-95ipymzquklbj81l)
 
 # Wissenschaftliche(re) Sicht
 
