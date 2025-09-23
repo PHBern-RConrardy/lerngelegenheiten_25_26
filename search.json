@@ -105,6 +105,174 @@
     "text": "Bibliographie\n\n\n\n\nAnderson, Lorin W., und David R. Krathwohl, Hrsg. 2001. A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives. Complete ed. New York: Longman.\n\n\nBildungs- und Kulturdirektion des Kantons Bern, Hrsg. 2016. „Lehrplan Für Die Volksschule Des Kantons Bern“.\n\n\nKrebs, René. 2004. „Anleitung zur Herstellung von MC-Fragen und MC-Prüfungen für die ärztliche Ausbildung“. Abteilung für Assessment und Evaluation AAE.\n\n\nPorst, Rolf. 2014. Fragebogen: Ein Arbeitsbuch. Wiesbaden: Springer Fachmedien Wiesbaden. https://doi.org/10.1007/978-3-658-02118-4."
   },
   {
+    "objectID": "Slides/MI_unterrichten_02.html#überblick",
+    "href": "Slides/MI_unterrichten_02.html#überblick",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Überblick",
+    "text": "Überblick\n\nEinführung in Hardware und Netzwerke\nZentrale Komponenten eines Computers\nNetzwerke: Grundlagen und Konzepte\nPraktische Beispiele und Anwendungen"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#was-ist-hardware",
+    "href": "Slides/MI_unterrichten_02.html#was-ist-hardware",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Was ist Hardware?",
+    "text": "Was ist Hardware?\n\nPhysische Komponenten eines Computers\nUnterscheidung: Eingabegeräte, Ausgabegeräte, Speicher, Recheneinheit\nBeispiele: Tastatur, Monitor, Festplatte, CPU, RAM"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#zentrale-komponenten",
+    "href": "Slides/MI_unterrichten_02.html#zentrale-komponenten",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Zentrale Komponenten",
+    "text": "Zentrale Komponenten\n\nCPU (Central Processing Unit): “Gehirn” des Computers\nRAM (Arbeitsspeicher): Temporärer Speicher für schnelle Zugriffe\nFestplatte/SSD: Dauerhafter Speicher\nMotherboard: Verbindet alle Komponenten\nPeripherie: Drucker, Scanner, externe Geräte"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#cpu",
+    "href": "Slides/MI_unterrichten_02.html#cpu",
+    "title": "Medien und Informatik unterrichten",
+    "section": "CPU",
+    "text": "CPU\n\n\nAbbildung 1: Central Processing Unit von Lambtron CC BY-SA 4.0"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#ram",
+    "href": "Slides/MI_unterrichten_02.html#ram",
+    "title": "Medien und Informatik unterrichten",
+    "section": "RAM",
+    "text": "RAM\n\n\nAbbildung 2: Random-Access Memory von An-D CC BY-SA 4.0"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#ssd-hdd",
+    "href": "Slides/MI_unterrichten_02.html#ssd-hdd",
+    "title": "Medien und Informatik unterrichten",
+    "section": "SSD / HDD",
+    "text": "SSD / HDD\n\n\n\n\n\n\n\n\nAbbildung 3: Solid State Drive - CC0\n\n\n\n\n\n\n\n\n\n\nAbbildung 4: Solid State Drive von Anselm Schüler CC BY-SA 4.0"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#mainboard-motherboard",
+    "href": "Slides/MI_unterrichten_02.html#mainboard-motherboard",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Mainboard (Motherboard)",
+    "text": "Mainboard (Motherboard)\n\n\nAbbildung 5: Random-Access Memory von https://pcsite.co.uk/motherboard/ CC BY-SA 4.0"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#netzwerke-grundlagen",
+    "href": "Slides/MI_unterrichten_02.html#netzwerke-grundlagen",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Netzwerke: Grundlagen",
+    "text": "Netzwerke: Grundlagen\n\nDefinition: Verbund von Computern zur Kommunikation\nTypen: LAN, WAN, WLAN, VPN\nVorteile: Ressourcenteilung, Kommunikation, Zugriff auf Internet"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#netzwerktopologien",
+    "href": "Slides/MI_unterrichten_02.html#netzwerktopologien",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Netzwerktopologien",
+    "text": "Netzwerktopologien\n\n\nAbbildung 6: Random-Access Memory von Foobaz, Parzi, Predatorix CC BY-SA 4.0"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#auftrag",
+    "href": "Slides/MI_unterrichten_02.html#auftrag",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Auftrag",
+    "text": "Auftrag\nEntscheiden Sie welche Netzerwerktopolien sind resilient gegen Angriffe.\nWie sind Chatplatformen (Whatsapp), Mail und Streaminganbieter vernetzt?"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#srf",
+    "href": "Slides/MI_unterrichten_02.html#srf",
+    "title": "Medien und Informatik unterrichten",
+    "section": "SRF",
+    "text": "SRF"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#vernetzung-über-unterseekabel",
+    "href": "Slides/MI_unterrichten_02.html#vernetzung-über-unterseekabel",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Vernetzung über Unterseekabel",
+    "text": "Vernetzung über Unterseekabel\nhttps://www.submarinecablemap.com/"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#netzwerktechnik",
+    "href": "Slides/MI_unterrichten_02.html#netzwerktechnik",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Netzwerktechnik",
+    "text": "Netzwerktechnik\n\nIP-Adressen: Eindeutige Kennung eines Geräts im Netz\nRouter: Vermittelt Daten zwischen Netzwerken\nSwitch: Verbindet Geräte innerhalb eines Netzwerks\nFirewall: Schutz vor unerlaubten Zugriffen"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_02.html#auftrag-1",
+    "href": "Slides/MI_unterrichten_02.html#auftrag-1",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Auftrag",
+    "text": "Auftrag\nZeichnen Sie eine Skizze wie folgende Komponenten zusammenhängen. Sie können ihr Zuhause oder ihre Schule als Modell nehmen:\n\nMobiltelefon\nLaptop\nRouter\n5G Sendemast\nRouter\nWLAN-Antenne\nNetflix Server"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#ccc---was-schützt-eigentlich-der-datenschutz",
+    "href": "Slides/MI_unterrichten_03.html#ccc---was-schützt-eigentlich-der-datenschutz",
+    "title": "Medien und Informatik unterrichten",
+    "section": "CCC - Was schützt eigentlich der Datenschutz",
+    "text": "CCC - Was schützt eigentlich der Datenschutz\n\n\nRehak (2018)"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datenschutz-als-sozialwissenschaftlicher-begriff",
+    "href": "Slides/MI_unterrichten_03.html#datenschutz-als-sozialwissenschaftlicher-begriff",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutz als sozialwissenschaftlicher Begriff",
+    "text": "Datenschutz als sozialwissenschaftlicher Begriff\n\nMachtasymmetrien\n\nDurchsetzungsmacht\nVerhinderungsmacht\nDefinitionsmacht\n\n\n\nRehak (2018)"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#privatsheitsparadox",
+    "href": "Slides/MI_unterrichten_03.html#privatsheitsparadox",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Privatsheitsparadox",
+    "text": "Privatsheitsparadox\n\nDass Personen mit Organisationen interagieren, die Personen existentiell gefährlich werden können und denen sie sich trotzdem ausliefern (müssen), gehört zum schlichten Alltagswissen spätestens seit der Schule.\n\n(rost2013?)"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datenschutzrecht-für-lehrpersonen",
+    "href": "Slides/MI_unterrichten_03.html#datenschutzrecht-für-lehrpersonen",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutzrecht für Lehrpersonen",
+    "text": "Datenschutzrecht für Lehrpersonen\nDieses Gesetz dient dem Schutz von Personen vor missbräuchlicher Datenbearbeitung durch Behörden.\n\nArt. 1 KDSG\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs. 1KDSG"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datenschutzrecht-für-lehrpersonen-1",
+    "href": "Slides/MI_unterrichten_03.html#datenschutzrecht-für-lehrpersonen-1",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutzrecht für Lehrpersonen",
+    "text": "Datenschutzrecht für Lehrpersonen\nPersonendaten dürfen nur bearbeitet werden, wenn das Gesetz ausdrücklich dazu ermächtigt oder wenn das Bearbeiten der Erfüllung einer gesetzlichen Aufgabe dient.\n\nArt. 5 Abs. 1 KDSG\n\nGemeinden und andere gemeinderechtliche Körperschaften sowie die Landeskirchen und ihre regionalen Einheiten bezeichnen für ihren Bereich eine eigene Aufsichtsstelle.\n\nArt. 33 Abs. 1 KDSG"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datenschutzrecht-als-unterrichtsinhalt",
+    "href": "Slides/MI_unterrichten_03.html#datenschutzrecht-als-unterrichtsinhalt",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutzrecht als Unterrichtsinhalt",
+    "text": "Datenschutzrecht als Unterrichtsinhalt\nDieses Gesetz gilt für die Bearbeitung von Personendaten natürlicher Personen durch: a. private Personen; b. Bundesorgane.\n\nArt. 2 Abs 1 DSG\n\nDer Verantwortliche und der Auftragsbearbeiter gewährleisten durch geeignete technische und organisatorische Massnahmen eine dem Risiko angemessene Datensicherheit.\n\nArt. 8 Abs 1 DSG"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datenschutzrecht-als-unterrichtsinhalt-1",
+    "href": "Slides/MI_unterrichten_03.html#datenschutzrecht-als-unterrichtsinhalt-1",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutzrecht als Unterrichtsinhalt",
+    "text": "Datenschutzrecht als Unterrichtsinhalt\nJede Person kann vom Verantwortlichen Auskunft darüber verlangen, ob Personendaten über sie bearbeitet werden.\n\nArt. 25 Abs 1 DSG"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#geldbussen-bzw.-strafen",
+    "href": "Slides/MI_unterrichten_03.html#geldbussen-bzw.-strafen",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Geldbussen, bzw. Strafen",
+    "text": "Geldbussen, bzw. Strafen\n\n\n🐈\nMit Busse bis zu 250 000 Franken werden private Personen auf Antrag bestraft, die vorsätzlich:\n\nArt. 61 DSG\n\n\n🐅\nBei Verstößen gegen die folgenden Bestimmungen werden im Einklang mit Absatz 2 Geldbußen von bis zu 20 000 000 EUR oder im Fall eines Unternehmens von bis zu 4 % seines gesamten weltweit erzielten Jahresumsatzes des vorangegangenen Geschäftsjahrs verhängt, je nachdem, welcher der Beträge höher ist:\n\nArt. 83 DSGVO"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#datensicherheit",
+    "href": "Slides/MI_unterrichten_03.html#datensicherheit",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datensicherheit",
+    "text": "Datensicherheit\n\n\nAbbildung 1: (hansen2015?)"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_03.html#bibliographie",
+    "href": "Slides/MI_unterrichten_03.html#bibliographie",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nRehak, Rainer. 2018. „Was Schützt Eigentlich Der Datenschutz?“"
+  },
+  {
     "objectID": "Slides/Datenschutz.html#datenschutz-als-gesellschaftliches-phänomen",
     "href": "Slides/Datenschutz.html#datenschutz-als-gesellschaftliches-phänomen",
     "title": "Digitalität und Datenschutz",
