@@ -11,3 +11,127 @@ institute: PHBern, IS1
 date: 2025-10-13 10:15
 room: "A004"
 ---
+
+# Datenschutz
+
+## CCC - Was schützt eigentlich der Datenschutz
+
+{{< video https://www.youtube.com/watch?v=sY7l8yPunNM width="800" height="350" >}}
+
+:::quelle
+@rehak2018
+:::
+
+## Datenschutz als sozialwissenschaftlicher Begriff
+
+* Machtasymmetrien
+  * Durchsetzungsmacht
+  * Verhinderungsmacht
+  * Definitionsmacht
+
+:::quelle
+@rehak2018
+:::
+
+## Privatsheitsparadox
+
+> Dass Personen mit Organisationen interagieren, die Personen existentiell gefährlich werden können und denen sie sich trotzdem ausliefern (müssen), gehört zum schlichten Alltagswissen spätestens seit der Schule.
+>
+:::quelle
+@rost2013
+:::
+
+## Datenschutzrecht für Lehrpersonen
+
+Dieses Gesetz dient dem Schutz von Personen vor missbräuchlicher Datenbearbeitung durch Behörden.
+
+:::quelle
+Art. 1 [KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+Dieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.
+
+:::quelle
+Art. 4 Abs. 1[KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+
+## Datenschutzrecht für Lehrpersonen
+
+Personendaten dürfen nur bearbeitet werden, wenn das Gesetz ausdrücklich dazu ermächtigt oder wenn das Bearbeiten der Erfüllung einer gesetzlichen Aufgabe dient.
+
+:::quelle
+Art. 5 Abs. 1 [KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+
+Gemeinden und andere gemeinderechtliche Körperschaften sowie die Landeskirchen und ihre regionalen Einheiten bezeichnen für ihren Bereich eine eigene Aufsichtsstelle.
+
+:::quelle
+Art. 33 Abs. 1 [KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+
+## Datenschutzrecht als Unterrichtsinhalt
+
+Dieses Gesetz gilt für die Bearbeitung von Personendaten natürlicher Personen durch:
+a.
+    private Personen;
+b.
+    Bundesorgane.
+
+:::quelle
+Art. 2 Abs 1 [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de)
+:::
+
+Der Verantwortliche und der Auftragsbearbeiter gewährleisten durch geeignete technische und organisatorische Massnahmen eine dem Risiko angemessene Datensicherheit.
+
+:::quelle
+Art. 8 Abs 1 [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de)
+:::
+
+## Datenschutzrecht als Unterrichtsinhalt
+
+Jede Person kann vom Verantwortlichen Auskunft darüber verlangen, ob Personendaten über sie bearbeitet werden.
+
+:::quelle
+Art. 25 Abs 1 [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de)
+:::
+
+## Geldbussen, bzw. Strafen {.smaller}
+
+::: {.columns}
+::: {.column}
+### 🐈
+
+Mit Busse bis zu 250 000 Franken werden private Personen auf Antrag bestraft, die vorsätzlich:
+
+:::quelle
+Art. 61 [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de)
+:::
+
+
+
+:::
+::: {.column}
+### 🐅
+Bei Verstößen gegen die folgenden Bestimmungen werden im Einklang mit Absatz 2 Geldbußen von bis zu 20 000 000 EUR oder im Fall eines Unternehmens von bis zu 4 % seines gesamten weltweit erzielten Jahresumsatzes des vorangegangenen Geschäftsjahrs verhängt, je nachdem, welcher der Beträge höher ist:
+
+:::quelle
+Art. 83 [DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+:::
+
+
+
+:::
+:::
+
+## Datensicherheit {background-color="var(--bg-activity)"}
+
+![@hansen2015](Datenschutz/Datenschutz-Schutzziele.svg){#fig-schutzziele}
+
+
+
+## Bibliographie
+
+

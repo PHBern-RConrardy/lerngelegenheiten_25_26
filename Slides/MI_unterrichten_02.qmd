@@ -9,3 +9,109 @@ institute: PHBern, IS1
 date: 2025-09-29 10:15
 room: "A004"
 ---
+
+# Hardware
+
+## Überblick
+
+
+- Einführung in Hardware und Netzwerke
+- Zentrale Komponenten eines Computers
+- Netzwerke: Grundlagen und Konzepte
+- Praktische Beispiele und Anwendungen
+
+
+## Was ist Hardware?
+
+
+- Physische Komponenten eines Computers
+- Unterscheidung: Eingabegeräte, Ausgabegeräte, Speicher, Recheneinheit
+- Beispiele: Tastatur, Monitor, Festplatte, CPU, RAM
+
+
+
+## Zentrale Komponenten
+
+
+- **CPU (Central Processing Unit)**: "Gehirn" des Computers
+- **RAM (Arbeitsspeicher)**: Temporärer Speicher für schnelle Zugriffe
+- **Festplatte/SSD**: Dauerhafter Speicher
+- **Motherboard**: Verbindet alle Komponenten
+- **Peripherie**: Drucker, Scanner, externe Geräte
+
+## CPU {background-color="var(--bg-activity)"}
+
+![Central Processing Unit von [Lambtron](https://commons.wikimedia.org/wiki/User:Lambtron) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/3/3a/ABasicComputer.svg){#fig-cpu}
+
+## RAM
+
+![Random-Access Memory von [An-D](https://commons.wikimedia.org/wiki/User:An-d) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/d/db/Swissbit_2GB_PC2-5300U-555.jpg){#fig-cpu}
+
+## SSD / HDD
+
+::: {.columns}
+::: {.column}
+![Solid State Drive - CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/CL4-3D256GB-Q11.jpg/1280px-CL4-3D256GB-Q11.jpg){#fig-cpu}
+:::
+::: {.column}
+![Solid State Drive von [Anselm Schüler](https://commons.wikimedia.org/wiki/User:Theanswertolifetheuniverseandeverything) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hard_drive_label_side.jpg/1024px-Hard_drive_label_side.jpg){#fig-cpu}
+:::
+:::
+
+## Mainboard (Motherboard)
+
+![Random-Access Memory von [https://pcsite.co.uk/motherboard/](https://pcsite.co.uk/motherboard/) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/b/b7/Computer-motherboard.jpg){#fig-cpu}
+
+# Netzwerke
+
+
+## Netzwerke: Grundlagen
+
+
+- Definition: Verbund von Computern zur Kommunikation
+- Typen: LAN, WAN, WLAN, VPN
+- Vorteile: Ressourcenteilung, Kommunikation, Zugriff auf Internet
+
+
+## Netzwerktopologien {background-color="var(--bg-activity)"}
+
+![Random-Access Memory von [Foobaz, Parzi, Predatorix](https://commons.wikimedia.org/wiki/File:NetzwerkTopologien.svg) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NetzwerkTopologien.svg/2560px-NetzwerkTopologien.svg.png){#fig-cpu}
+
+## Auftrag
+
+Entscheiden Sie welche Netzerwerktopolien sind resilient gegen Angriffe.
+
+Wie sind Chatplatformen (Whatsapp), Mail und Streaminganbieter vernetzt?
+
+
+## SRF
+
+{{< video https://www.youtube.com/watch?v=e9FJPnFQWi8 width="800" height="500" >}}
+
+## Vernetzung über Unterseekabel
+
+[https://www.submarinecablemap.com/](https://www.submarinecablemap.com/)
+
+
+
+## Netzwerktechnik
+
+
+- **IP-Adressen**: Eindeutige Kennung eines Geräts im Netz
+- **Router**: Vermittelt Daten zwischen Netzwerken
+- **Switch**: Verbindet Geräte innerhalb eines Netzwerks
+- **Firewall**: Schutz vor unerlaubten Zugriffen
+
+
+## Auftrag {background-color="var(--bg-activity)"}
+
+Zeichnen Sie eine Skizze wie folgende Komponenten zusammenhängen. Sie können ihr Zuhause oder ihre Schule als Modell nehmen:
+
+* Mobiltelefon
+* Laptop
+* Router
+* 5G Sendemast
+* Router
+* WLAN-Antenne 
+* Netflix Server
+
