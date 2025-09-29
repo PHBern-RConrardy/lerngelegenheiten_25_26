@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="De" xml:lang="De"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d521dac1687b568bac4cd80e48eb8185.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0fd445826db4cc1007072b2af7a3b60c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-room',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date','listing-room',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -139,6 +140,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">LG 25 26</span>
     </a>
@@ -231,6 +234,10 @@ window.Quarto = {
 </th>
 
 <th>
+Untertitel
+</th>
+
+<th>
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Datum</a>
 </th>
 
@@ -247,6 +254,9 @@ room
 <a href="./Slides/Zusammenarbeit_und_Kommunikation_01.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
 </td>
 <td>
+<span class="listing-subtitle">Teil 1</span>
+</td>
+<td>
 <span class="listing-date">17.09.2025 um 12:15</span>
 </td>
 <td>
@@ -258,6 +268,9 @@ room
 <tr data-index="1" data-listing-date-sort="1758118500000" data-listing-file-modified-sort="1758621516749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="397" data-listing-title-sort="Digitale Medien in der Beurteilung einsetzen" data-listing-filename-sort="Digitale_Medien_Beurteilung_01.qmd">
 <td>
 <a href="./Slides/Digitale_Medien_Beurteilung_01.html" class="title listing-title">Digitale Medien in der Beurteilung einsetzen</a>
+</td>
+<td>
+<span class="listing-subtitle">Teil 1</span>
 </td>
 <td>
 <span class="listing-date">17.09.2025 um 16:15</span>
@@ -273,6 +286,9 @@ room
 <a href="./Slides/Ohne_Prompt_03.html" class="title listing-title">Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag</a>
 </td>
 <td>
+<span class="listing-subtitle">Teil 3</span>
+</td>
+<td>
 <span class="listing-date">25.09.2025 um 14:15</span>
 </td>
 <td>
@@ -286,6 +302,9 @@ room
 <a href="./Slides/Ohne_Prompt_04.html" class="title listing-title">Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag</a>
 </td>
 <td>
+<span class="listing-subtitle">Teil 4</span>
+</td>
+<td>
 <span class="listing-date">25.09.2025 um 15:15</span>
 </td>
 <td>
@@ -294,9 +313,12 @@ room
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1759133700000" data-listing-file-modified-sort="1758626775265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214" data-listing-title-sort="Medien und Informatik unterrichten" data-listing-filename-sort="MI_unterrichten_02.qmd">
+<tr data-index="4" data-listing-date-sort="1759133700000" data-listing-file-modified-sort="1759153912471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214" data-listing-title-sort="Medien und Informatik unterrichten" data-listing-filename-sort="MI_unterrichten_02.qmd">
 <td>
 <a href="./Slides/MI_unterrichten_02.html" class="title listing-title">Medien und Informatik unterrichten</a>
+</td>
+<td>
+<span class="listing-subtitle">Netzwerke und Hardware</span>
 </td>
 <td>
 <span class="listing-date">29.09.2025 um 10:15</span>
@@ -312,6 +334,9 @@ room
 <a href="./Slides/Zusammenarbeit_und_Kommunikation_02.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
 </td>
 <td>
+<span class="listing-subtitle">Teil 2</span>
+</td>
+<td>
 <span class="listing-date">01.10.2025 um 12:15</span>
 </td>
 <td>
@@ -320,9 +345,12 @@ room
 
 </tr>
 
-<tr data-index="6" data-listing-date-sort="1759328100000" data-listing-file-modified-sort="1757526004844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Digitale Medien in der Beurteilung einsetzen" data-listing-filename-sort="Digitale_Medien_Beurteilung_02.qmd">
+<tr data-index="6" data-listing-date-sort="1759328100000" data-listing-file-modified-sort="1758638543339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Digitale Medien in der Beurteilung einsetzen" data-listing-filename-sort="Digitale_Medien_Beurteilung_02.qmd">
 <td>
 <a href="./Slides/Digitale_Medien_Beurteilung_02.html" class="title listing-title">Digitale Medien in der Beurteilung einsetzen</a>
+</td>
+<td>
+<span class="listing-subtitle">Teil 2</span>
 </td>
 <td>
 <span class="listing-date">01.10.2025 um 16:15</span>
@@ -333,9 +361,12 @@ room
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1759421700000" data-listing-file-modified-sort="1757526004841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="669" data-listing-title-sort="Digitalität und Datenschutz" data-listing-filename-sort="Datenschutz.qmd">
+<tr data-index="7" data-listing-date-sort="1759421700000" data-listing-file-modified-sort="1758634500170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="669" data-listing-title-sort="Digitalität und Datenschutz" data-listing-filename-sort="Datenschutz.qmd">
 <td>
 <a href="./Slides/Datenschutz.html" class="title listing-title">Digitalität und Datenschutz</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">02.10.2025 um 18:15</span>
@@ -351,6 +382,9 @@ room
 <a href="./Slides/MI_unterrichten_block_03.html" class="title listing-title">Medien und Informatik unterrichten</a>
 </td>
 <td>
+<span class="listing-subtitle">Datenschutz- und Urheberrecht</span>
+</td>
+<td>
 <span class="listing-date">09.10.2025 um 14:15</span>
 </td>
 <td>
@@ -362,6 +396,9 @@ room
 <tr data-index="9" data-listing-date-sort="1760343300000" data-listing-file-modified-sort="1758632069437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272" data-listing-title-sort="Medien und Informatik unterrichten" data-listing-filename-sort="MI_unterrichten_03.qmd">
 <td>
 <a href="./Slides/MI_unterrichten_03.html" class="title listing-title">Medien und Informatik unterrichten</a>
+</td>
+<td>
+<span class="listing-subtitle">Medienbildung, KI und Datenschutz</span>
 </td>
 <td>
 <span class="listing-date">13.10.2025 um 10:15</span>
@@ -377,6 +414,9 @@ room
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_1_Jugend,%20Schule%20und%20Gesellschaft/PPL2_1-JugendSchuleUndGesellschaft.pptx?d=w7eabde189a9f48a79745ff378ad39650&amp;csf=1&amp;web=1&amp;e=VQBXhd" class="title listing-title">PPD 2 F - Teil 1</a>
 </td>
 <td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+<td>
 <span class="listing-date">15.10.2025 um 08:15</span>
 </td>
 <td>
@@ -388,6 +428,9 @@ room
 <tr data-index="11" data-listing-date-sort="1761722100000" data-listing-title-sort="PPD 1 S - Teil 1">
 <td>
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_1_Wirkung,%20Gestaltung%20und%20Einsatz/PPL1_1-MedienGestaltungEinsatz.pptx?d=wc56ba04639c4448eb503fe2e9a431dab&amp;csf=1&amp;web=1&amp;e=11q8th" class="title listing-title">PPD 1 S - Teil 1</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">29.10.2025 um 08:15</span>
@@ -403,6 +446,9 @@ room
 <a href="./Slides/MI_unterrichten_06.html" class="title listing-title">Medien und Informatik unterrichten</a>
 </td>
 <td>
+<span class="listing-subtitle">Programmieren 1</span>
+</td>
+<td>
 <span class="listing-date">03.11.2025 um 10:15</span>
 </td>
 <td>
@@ -414,6 +460,9 @@ room
 <tr data-index="13" data-listing-date-sort="1762766100000" data-listing-file-modified-sort="1757526004844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Medien und Informatik unterrichten" data-listing-filename-sort="MI_unterrichten_07.qmd">
 <td>
 <a href="./Slides/MI_unterrichten_07.html" class="title listing-title">Medien und Informatik unterrichten</a>
+</td>
+<td>
+<span class="listing-subtitle">Programmieren 2</span>
 </td>
 <td>
 <span class="listing-date">10.11.2025 um 10:15</span>
@@ -429,6 +478,9 @@ room
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_2_Kommunkation%20und%20Kollaboration/PPL2_2_Kommunikation_und_Kollaboration.pptx?d=w8a2ac2763c9744a1909f078ecd06368d&amp;csf=1&amp;web=1&amp;e=xtPxRv" class="title listing-title">PPD 2 F - Teil 2</a>
 </td>
 <td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+<td>
 <span class="listing-date">12.11.2025 um 08:15</span>
 </td>
 <td>
@@ -440,6 +492,9 @@ room
 <tr data-index="15" data-listing-date-sort="1763536500000" data-listing-title-sort="PPD 1 S - Teil 2">
 <td>
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_2_Lernen%20begleiten%20und%20f%C3%B6rdern/PPL1_2-Lernen%20begleiten%20und%20fo%CC%88rdern.pptx?d=w1d9c6ee5b9754575998ccafdd8351bbe&amp;csf=1&amp;web=1&amp;e=Gipiea" class="title listing-title">PPD 1 S - Teil 2</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">19.11.2025 um 08:15</span>
@@ -455,6 +510,9 @@ room
 <a href="./Slides/forschung.html" class="title listing-title">Individualisierte Lerngelegenheiten mit Lernbegleitung</a>
 </td>
 <td>
+<span class="listing-subtitle">Datenschutz</span>
+</td>
+<td>
 <span class="listing-date">02.12.2025 um 16:15</span>
 </td>
 <td>
@@ -466,6 +524,9 @@ room
 <tr data-index="17" data-listing-date-sort="1764746100000" data-listing-title-sort="PPD 1 S - Teil 3">
 <td>
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD1_3_Beurteilen%20und%20R%C3%BCckmelden/PPL1_3_Ru%CC%88ckmelden_und_Beurteilen.pptx?d=we374b98a21fc40308f5570620fcd3858&amp;csf=1&amp;web=1&amp;e=k2Gni3" class="title listing-title">PPD 1 S - Teil 3</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">03.12.2025 um 08:15</span>
@@ -481,6 +542,9 @@ room
 <a href="./Slides/MI_unterrichten_11.html" class="title listing-title">Medien und Informatik unterrichten</a>
 </td>
 <td>
+<span class="listing-subtitle">Robotik</span>
+</td>
+<td>
 <span class="listing-date">08.12.2025 um 10:15</span>
 </td>
 <td>
@@ -494,6 +558,9 @@ room
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_1_Jugend,%20Schule%20und%20Gesellschaft/PPL2_1-JugendSchuleUndGesellschaft.pptx?d=w7eabde189a9f48a79745ff378ad39650&amp;csf=1&amp;web=1&amp;e=VQBXhd" class="title listing-title">PPD 2 B - Teil 1</a>
 </td>
 <td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+<td>
 <span class="listing-date">13.02.2026 um 08:15</span>
 </td>
 <td>
@@ -505,6 +572,9 @@ room
 <tr data-index="20" data-listing-date-sort="1770974100000" data-listing-title-sort="PPD 2 B - Teil 3">
 <td>
 <a href="https://phbern365.sharepoint.com/:p:/r/sites/msteams_c6b781_675625/Freigegebene%20Dokumente/General/Vorbereitung/PPD2_3_Szenarien%20und%20Trends/PPL2_3-UnterrichtszenarienUndTrends.pptx?d=w86edcb6c748e4f2ca8fa6d0cbff96cf2&amp;csf=1&amp;web=1&amp;e=2fImAl" class="title listing-title">PPD 2 B - Teil 3</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">13.02.2026 um 10:15</span>
@@ -570,13 +640,14 @@ room
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
