@@ -4,7 +4,7 @@
     "href": "Linksammlung.html",
     "title": "Linksammlung",
     "section": "",
-    "text": "d\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\nArbeitenportal\n\n\n\n\n\n\nKomet\n\n\n\n\n\n\nSoftwarekatalog\n\n\n\n\n\n\nLimeSurvey\n\n\n\n\n\n\nDocata\n\n\n\n\n\n\nCampusportal\n\n\n\n\n\n\nQM-Pilot\n\n\n\n\n\n\nForum für Lehrpersonen\n\n\n\n\n\n\nRichtlinien zur Texterstellung\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\nArbeitenportal\n\n\n\n\n\n\nKomet\n\n\n\n\n\n\nSoftwarekatalog\n\n\n\n\n\n\nLimeSurvey\n\n\n\n\n\n\nDocata\n\n\n\n\n\n\nCampusportal\n\n\n\n\n\n\nQM-Pilot\n\n\n\n\n\n\nForum für Lehrpersonen\n\n\n\n\n\n\nRichtlinien zur Texterstellung\n\n\n\n\n\n\nAssessment Toolbox\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Slides/Digitale_Medien_Beurteilung_01.html#ilias",
@@ -621,5 +621,82 @@
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nRosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes Breitschaft, Eliane Burri, Martin Fugmann, Sarah Genner, u. a. 2023. „Wie Gestalte Ich Die Kommunikation Meiner Schule Im Digitalen Wandel?“ In Digital Leadership – Schulen Im Digitalen Wandel Führen, herausgegeben von Johannes Breitschaft, Tobias Röhl, Eliane Burri, und Nicole Wespi. hep Verlag. https://doi.org/10.36933/9783035523393."
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#gütekriterien",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#gütekriterien",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Gütekriterien",
+    "text": "Gütekriterien\nNeben Reliabilität und Validität sollten bei digitalen Medien auch Fairness und Praktikabilität beachtet werden.\nWie verändert sich die Aussagekraft einer Beurteilung (z.B. E-Portfolio) wenn es digital stattfindet?"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#feedback",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#feedback",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Feedback",
+    "text": "Feedback\n\n\n\nTabelle 1: Moderatoreffekte (Wisniewski, Zierer, und Hattie 2020, 11), gekürzt\n\n\n\n\n\nModerator\nk\nd\nC.I.\n\n\n\n\nResearch design\n\n\n\n\n\nControlled study\n713\n0.42\n[0.37–0.46]\n\n\nPre-post study\n244\n0.63\n[0.56–0.69]\n\n\nOutcome measure\n\n\n\n\n\nCognitive\n597\n0.51\n[0.46–0.55]\n\n\nMotivational\n109\n0.33\n[0.23–0.42]\n\n\nPhysical\n19\n0.63\n[0.34–0.92]\n\n\nBehavioral\n30\n0.48\n[−0.09–1.06]\n\n\nType of feedback\n\n\n\n\n\nReinforcement/punishment\n39\n0.24\n[0.06–0.43]\n\n\nCorrective feedback\n238\n0.46\n[0.39–0.55]\n\n\nHigh-information feedback\n42\n0.99\n[0.82–1.15]\n\n\nFeedback direction\n\n\n\n\n\nTeacher → student\n812\n0.47\n[0.43–0.51]\n\n\nStudent → teacher\n27\n0.35\n[0.13–0.56]\n\n\nStudent → student\n16\n0.85\n[0.59–1.11]"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#novelty-effect",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#novelty-effect",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Novelty Effect",
+    "text": "Novelty Effect\n\n\nAbbildung 1: (Kluger und DeNisi 1996, 274)"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#auftrag",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#auftrag",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Auftrag",
+    "text": "Auftrag\nBesprechen Sie mit ihren Kommilitonen, mit welchen Tools sie Feedbackprozesse digital Fördern.\nDigitale Feedbackformen\n\nAutomatisiert (z. B. MC-Test mit direktem Feedback)\nPeer-Feedback (Kommentare, Online-Diskussionsforen)\nKI-generiert (z. B. CustomGPT)"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#section",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#section",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "",
+    "text": "Tabelle 2: Computerunterstütze Prüfungsformen (Arnold u. a. 2018, 315)\n\n\n\n\n\n\n\n\n\n\nTraditioneller Leistungsnachweis\nE-Assessment-Form\nGrad der Entsprechung\n\n\n\n\nschriftliche Prüfung\nelektronische Klausur\nhoch\n\n\nmündliche Prüfung\nadaptives Testen / Videoprüfung\nhoch\n\n\nReferat\nPräsentation\nhoch\n\n\nSeminararbeit\nelektronisch abgegebene Arbeit (electronic submission)\nhoch\n\n\nmündliche Beteiligung\nOnline-Diskussionsforum / Online-Voting-System\nmittel\n\n\nLerntagebuch\nStudienjournal per Weblog\nhoch\n\n\nGruppenprüfung\ngemeinsamer Wiki-Aufbau / Webquests\nniedrig\n\n\nPortfolio\nE-Portfolio\nhoch\n\n\nPoster-Präsentation\nDigital Storytelling\nmittel\n\n\nwissenschaftspraktische Tätigkeit\nSimulation\nhoch\n\n\nwechselseitige studentische Bewertung\nPeer Assessment (z. B. durch Kommentarfunktion)\nhoch"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#übung",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#übung",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Übung",
+    "text": "Übung\nÜbertragen Sie eine analoge Prüfungsform ins Digitale:\n\nWie verändert sich das Feedback?\n\nWelche Chancen / Risiken entstehen?"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#section-1",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#section-1",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "",
+    "text": "https://assessment.unibe.ch/TestingFormats"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#rechtliche-und-ethische-aspekte",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#rechtliche-und-ethische-aspekte",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Rechtliche und ethische Aspekte",
+    "text": "Rechtliche und ethische Aspekte\n\nDatenschutz: besonders bei summativen Beurteilungen\nUrheberrecht: Quellenangaben, Bilder, Texte\nEthik: Soll KI-Feedback ungeprüft an Lernende weitergegeben werden?"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#typische-herausforderungen",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#typische-herausforderungen",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Typische Herausforderungen",
+    "text": "Typische Herausforderungen\n\nSchummeln 2.0: KI & Internet sind schwer kontrollierbar\nTechnische Störungen: WLAN-Ausfälle, Hardwareprobleme\nAkzeptanz: Lernende empfinden Tools unterschiedlich als fair/nützlich"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#intelligent-tutoring-systems-its",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#intelligent-tutoring-systems-its",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Intelligent Tutoring Systems (ITS)",
+    "text": "Intelligent Tutoring Systems (ITS)\n\n\nAbbildung 2: ITS made by PHBern, Quelle: Baumer (2025)"
+  },
+  {
+    "objectID": "Slides/Digitale_Medien_Beurteilung_02.html#bibliographie",
+    "href": "Slides/Digitale_Medien_Beurteilung_02.html#bibliographie",
+    "title": "Digitale Medien in der Beurteilung einsetzen",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nArnold, Patricia, Lars Kilian, Anne Thillosen, und Gerhard M. Zimmer. 2018. Handbuch E-Learning: Lehren und Lernen mit digitalen Medien. 5. Aufl. Stuttgart, Deutschland: utb GmbH. https://doi.org/10.36198/9783838549651.\n\n\nBaumer, Matthias. 2025. „KI in der Schule: Wie funktioniert das?“ Schweizer Radio und Fernsehen (SRF). https://www.srf.ch/news/schweiz/klassenzimmer-der-zukunft-ki-in-der-schule-bildung-oder-beschaeftigung.\n\n\nKluger, Avraham, und Angelo DeNisi. 1996. „The Effects of Feedback Interventions on Performance: A Historical Review, a Meta-Analysis, and a Preliminary Feedback Intervention Theory“. Psychological Bulletin 119 (März): 254–84. https://doi.org/10.1037/0033-2909.119.2.254.\n\n\nWisniewski, Benedikt, Klaus Zierer, und John Hattie. 2020. „The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research“. Frontiers in Psychology 10 (Januar). https://doi.org/10.3389/fpsyg.2019.03087."
   }
 ]
