@@ -185,6 +185,7 @@ Diskussion:
 # Wissenschaftliche(re) Sicht
 
 ##
+
 ![Framework der Rollen der Schulkommunikation im digitalen Wandel der Schulen, @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/ZuK_Framework_Rosenberg23_CC_NC_ND.svg){#fig-1}
 
 

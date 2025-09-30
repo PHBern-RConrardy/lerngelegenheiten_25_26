@@ -3,9 +3,122 @@ format:
   revealjs: default
   docx: default
 title: Digitale Medien in der Beurteilung einsetzen
-subtitle: Teil 1
+subtitle: Teil 2
 author: Richard Conrardy
 institute: PHBern, IS1
 date: "2025-10-01 16:15 "
 room: "C301"
 ---
+
+# Rekapitulation
+
+[Padlet](https://phbern.padlet.org/richardconrardy/digitale-medien-in-der-beurteilung-rbqabyrpwfmvr9qy)
+
+
+## Gütekriterien 
+
+Neben Reliabilität und Validität sollten bei digitalen Medien auch **Fairness** und **Praktikabilität** beachtet werden.
+
+Wie verändert sich die Aussagekraft einer Beurteilung (z.B. E-Portfolio) wenn es digital stattfindet?
+
+## Feedback {.smaller}
+
+::: {#tbl-letters}
+
+| Moderator                  | k   | d    | C.I.            |
+|----------------------------|-----|------|-----------------|
+| **Research design**        |     |      |                 |
+| Controlled study           | 713 | 0.42 | [0.37–0.46]     |
+| Pre-post study             | 244 | 0.63 | [0.56–0.69]     |
+| **Outcome measure**        |     |      |                 |
+| Cognitive                  | 597 | 0.51 | [0.46–0.55]     |
+| Motivational               | 109 | 0.33 | [0.23–0.42]     |
+| Physical                   | 19  | 0.63 | [0.34–0.92]     |
+| Behavioral                 | 30  | 0.48 | [−0.09–1.06]    |
+| **Type of feedback**       |     |      |                 |
+| Reinforcement/punishment   | 39  | 0.24 | [0.06–0.43]     |
+| Corrective feedback        | 238 | 0.46 | [0.39–0.55]     |
+| High-information feedback  | 42  | 0.99 | [0.82–1.15]     |
+| **Feedback direction**     |     |      |                 |
+| Teacher → student          | 812 | 0.47 | [0.43–0.51]     |
+| Student → teacher          | 27  | 0.35 | [0.13–0.56]     |
+| Student → student          | 16  | 0.85 | [0.59–1.11]     |
+
+
+Moderatoreffekte [@wisniewski2020, S.11], gekürzt
+
+:::
+
+## Novelty Effect
+
+![[@kluger1996,S.274]](Medien_Beurteilung/kluger1996.png){#fig-kluger}
+
+## Auftrag {background-color="var(--bg-activity)"}
+
+Besprechen Sie mit ihren Kommilitonen, mit welchen **Tools** sie Feedbackprozesse digital Fördern.
+
+### Digitale Feedbackformen
+
+- **Automatisiert** (z. B. MC-Test mit direktem Feedback)
+- **Peer-Feedback** (Kommentare, Online-Diskussionsforen)
+- **KI-generiert** (z. B. CustomGPT)
+
+
+# E-Assessment-Formen
+
+## {.smaller}
+
+::: {#tbl-letters}
+
+| Traditioneller Leistungsnachweis       | E-Assessment-Form                                     | Grad der Entsprechung |
+|----------------------------------------|-------------------------------------------------------|------------------------|
+| schriftliche Prüfung                   | elektronische Klausur                                 | hoch                   |
+| mündliche Prüfung                      | adaptives Testen / Videoprüfung                       | hoch                   |
+| Referat                                | Präsentation                                          | hoch                   |
+| Seminararbeit                          | elektronisch abgegebene Arbeit (electronic submission)| hoch                   |
+| mündliche Beteiligung                  | Online-Diskussionsforum / Online-Voting-System        | mittel                 |
+| Lerntagebuch                           | Studienjournal per Weblog                             | hoch                   |
+| Gruppenprüfung                         | gemeinsamer Wiki-Aufbau / Webquests                   | niedrig                |
+| Portfolio                              | E-Portfolio                                           | hoch                   |
+| Poster-Präsentation                    | Digital Storytelling                                  | mittel                 |
+| wissenschaftspraktische Tätigkeit      | Simulation                                            | hoch                   |
+| wechselseitige studentische Bewertung  | Peer Assessment (z. B. durch Kommentarfunktion)       | hoch                   |
+
+Computerunterstütze Prüfungsformen [@arnold2018, S.315]
+
+:::
+
+## Übung {background-color="var(--bg-activity)"}
+
+Übertragen Sie eine analoge Prüfungsform ins Digitale:  
+
+* Wie verändert sich das Feedback?  
+* Welche Chancen / Risiken entstehen?
+
+
+##
+
+[![](Medien_Beurteilung/TBA-Logo.svg)](https://assessment.unibe.ch/TestingFormats)
+
+https://assessment.unibe.ch/TestingFormats
+
+## Rechtliche und ethische Aspekte
+
+- **Datenschutz**: besonders bei summativen Beurteilungen
+- **Urheberrecht**: Quellenangaben, Bilder, Texte
+- **Ethik**: Soll KI-Feedback ungeprüft an Lernende weitergegeben werden?
+
+## Typische Herausforderungen
+
+- **Schummeln 2.0**: KI & Internet sind schwer kontrollierbar
+- **Technische Störungen**: WLAN-Ausfälle, Hardwareprobleme
+- **Akzeptanz**: Lernende empfinden Tools unterschiedlich als fair/nützlich
+
+
+# Ausblick
+
+## Intelligent Tutoring Systems (ITS)
+
+![ITS made by PHBern, Quelle: @baumer2025](Medien_Beurteilung/baumer.webp){#fig-its}
+
+## Bibliographie

@@ -34,6 +34,9 @@ listing:
         - title: Richtlinien zur Texterstellung
           path: "https://rzt.site.phbern.ch/richtlinien/"
           categories: [PHBern]
+        - title: Assessment Toolbox
+          path: https://assessment.unibe.ch/TestingFormats
+          categories: [UniBern]
     type: table
     fields: [title]
     categories: true
@@ -41,4 +44,3 @@ listing:
     page-size: 100
     
 ---
-d

@@ -41,26 +41,26 @@ room: "A004"
 
 ## CPU {background-color="var(--bg-activity)"}
 
-![Central Processing Unit von [Lambtron](https://commons.wikimedia.org/wiki/User:Lambtron) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/3/3a/ABasicComputer.svg){#fig-cpu}
+![Central Processing Unit von [Lambtron](https://upload.wikimedia.org/wikipedia/commons/3/3a/ABasicComputer.svg) CC BY-SA 4.0](MI_unterrichten/Wikimedia/cpu.svg){#fig-cpu}
 
 ## RAM
 
-![Random-Access Memory von [An-D](https://commons.wikimedia.org/wiki/User:An-d) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/d/db/Swissbit_2GB_PC2-5300U-555.jpg){#fig-cpu}
+![Random-Access Memory von [An-D](https://upload.wikimedia.org/wikipedia/commons/d/db/Swissbit_2GB_PC2-5300U-555.jpg) CC BY-SA 4.0](MI_unterrichten/Wikimedia/RAM.jpg){#fig-cpu}
 
 ## SSD / HDD
 
 ::: {.columns}
 ::: {.column}
-![Solid State Drive - CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/CL4-3D256GB-Q11.jpg/1280px-CL4-3D256GB-Q11.jpg){#fig-cpu}
+![Solid State Drive - CC0](MI_unterrichten/Wikimedia/ssd.jpg){#fig-cpu}
 :::
 ::: {.column}
-![Solid State Drive von [Anselm Schüler](https://commons.wikimedia.org/wiki/User:Theanswertolifetheuniverseandeverything) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hard_drive_label_side.jpg/1024px-Hard_drive_label_side.jpg){#fig-cpu}
+![Solid State Drive von [Anselm Schüler](Slides/MI_unterrichten/hdd.jpg) CC BY-SA 4.0](MI_unterrichten/Wikimedia/hdd.jpg){#fig-cpu}
 :::
 :::
 
 ## Mainboard (Motherboard)
 
-![Random-Access Memory von [https://pcsite.co.uk/motherboard/](https://pcsite.co.uk/motherboard/) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/b/b7/Computer-motherboard.jpg){#fig-cpu}
+![Random-Access Memory von [https://pcsite.co.uk/motherboard/](https://pcsite.co.uk/motherboard/) CC BY-SA 4.0](MI_unterrichten/Wikimedia/mainboard.jpg){#fig-cpu}
 
 # Netzwerke
 
@@ -75,7 +75,7 @@ room: "A004"
 
 ## Netzwerktopologien {background-color="var(--bg-activity)"}
 
-![Random-Access Memory von [Foobaz, Parzi, Predatorix](https://commons.wikimedia.org/wiki/File:NetzwerkTopologien.svg) CC BY-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NetzwerkTopologien.svg/2560px-NetzwerkTopologien.svg.png){#fig-cpu}
+![Random-Access Memory von [Foobaz, Parzi, Predatorix](https://commons.wikimedia.org/wiki/File:NetzwerkTopologien.svg) CC BY-SA 4.0](MI_unterrichten/Wikimedia/networks.png){#fig-cpu}
 
 ## Auftrag
 
