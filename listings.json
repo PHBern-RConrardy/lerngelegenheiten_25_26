@@ -4,6 +4,10 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/slides.html",
     "items": [
       "/Slides/Zusammenarbeit_und_Kommunikation_01.html",
@@ -11,6 +15,7 @@
       "/Slides/Ohne_Prompt_03.html",
       "/Slides/Ohne_Prompt_04.html",
       "/Slides/MI_unterrichten_02.html",
+      "/Slides/MI_unterrichten_block_02.html",
       "/Slides/Zusammenarbeit_und_Kommunikation_02.html",
       "/Slides/Digitale_Medien_Beurteilung_02.html",
       "/Slides/Datenschutz.html",
@@ -21,9 +26,5 @@
       "/Slides/forschung.html",
       "/Slides/MI_unterrichten_11.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": []
   }
 ]
