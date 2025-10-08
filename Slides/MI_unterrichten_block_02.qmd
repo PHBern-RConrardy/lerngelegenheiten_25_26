@@ -6,7 +6,7 @@ title: Medien und Informatik unterrichten
 subtitle: Netzwerke und Hardware
 author: Richard Conrardy
 institute: PHBern, IS1
-date: 2025-09-29 10:15
+date: 2025-10-08 8:15
 room: "A004"
 ---
 
@@ -38,6 +38,10 @@ room: "A004"
 - **Festplatte/SSD**: Dauerhafter Speicher
 - **Motherboard**: Verbindet alle Komponenten
 - **Peripherie**: Drucker, Scanner, externe Geräte
+
+## Turing Maschine {background-color="var(--bg-activity)"}
+
+![Ein-Band-Turingmaschine [TripleWhy](https://commons.wikimedia.org/wiki/File:Turingmaschine.svg) CC BY-SA 3.0](MI_unterrichten/Wikimedia/Turingmaschine.svg){#fig-tur}
 
 ## CPU {background-color="var(--bg-activity)"}
 

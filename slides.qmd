@@ -34,7 +34,7 @@ listing:
       room: "B302"
 
   type: table
-  fields: [title, date, room]
+  fields: [title, subtitle, date, room]
   sort: date
   date-format: "DD.MM.YYYY [um] HH:mm"
 

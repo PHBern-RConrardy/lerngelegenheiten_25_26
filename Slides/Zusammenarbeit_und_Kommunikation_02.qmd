@@ -9,3 +9,59 @@ institute: PHBern, IS1
 date: 2025-10-01 12:15
 room: "B303"
 ---
+
+# Rekapitulation
+
+## Eure Antworten
+
+[Padlet](https://phbern.padlet.org/richardconrardy/digitale-zusammenarbeit-und-kommunikation-95ipymzquklbj81l)
+
+. . . 
+
+[Datenschutzlexikon für die Volksschule](https://www.lp-sl.bkd.be.ch/de/start/schulleitungen/datenschutzlexikon.html?r=87248732858210&lid=2738510&pm_ln=104)
+
+
+# Wissenschaftliche(re) Sicht
+
+##
+![Framework der Rollen der Schulkommunikation im digitalen Wandel der Schulen, @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/ZuK_Framework_Rosenberg23_CC_NC_ND.svg){#fig-1}
+
+
+## 
+
+![Neun Handlungsdimensionen der Schulkommunikation im digitalen Wandel @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/9Handlungsdimensionen_Baumgartner23_CC_NC_ND.svg){#fig-pyramid}
+
+
+##
+
+![Typische Spannungsfelder der Schulkommunikation, @rosenberger2023 CC BY-NC-ND 4.0](Zusammenarbeit_und_Kommunikation/ZuK_Rosenberger23_CC_NC_ND.svg){#fig-1}
+
+# Kommunikations- konzepte
+
+## Auftrag {background-color="var(--bg-activity)"}
+
+Auf Ilias und vor Ort finden Sie diverse Kommunikationskonzepte von Schulen. Falls Sie bereits an einer Schule arbeiten, dürfen Sie auch mit dem der Schule arbeiten. 
+
+Lesen Sie das Kommunikationskonzept quer. Welche Kommunikation wird abgedeckt, welche nicht? Worauf wurde ihrer Meinung nach besonders geachtet im Kommunikationskonzept?
+
+## Für Sie als Studierende
+
+PH-spezifisches ausschliesslich über PH-Mail.
+
+* Signatur
+* mit Studiengang und A-Fächern
+* Studierendennummer
+
+Merci!
+
+# Teams
+
+
+
+# Mail
+
+# Klapp
+
+# Lehreroffice
+
+## Bibliographie
