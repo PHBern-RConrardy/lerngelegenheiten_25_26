@@ -2,6 +2,7 @@
 format: 
   revealjs: default
   docx: default
+  pptx: default
 title: Medien und Informatik unterrichten
 subtitle: Datenschutz- und Urheberrecht
 author: Richard Conrardy
@@ -9,4 +10,66 @@ institute: PHBern, IS1
 date: 2025-10-09 14:15
 room: ""
 ---
-## 
+
+# Urheberrecht
+
+## Urheberrechtsgesetz (URG)
+
+[Art. 19 Abs.3 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) Ausserhalb des privaten Kreises nach Absatz 1 Buchstabe a sind nicht zulässig:
+
+a. die vollständige oder weitgehend vollständige Vervielfältigung im Handel erhältlicher Werkexemplare;
+
+[Art. 25 Abs.1 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.
+
+## Freie Lizenzen {.smaller}
+
+* Die Freiheit, das Programm auszuführen wie man möchte, für jeden Zweck (Freiheit 0).
+* Die Freiheit, die Funktionsweise des Programms zu untersuchen und eigenen Datenverarbeitungbedürfnissen anzupassen (Freiheit 1). Der Zugang zum Quellcode ist dafür Voraussetzung.
+* Die Freiheit, das Programm zu redistribuieren und damit Mitmenschen zu helfen (Freiheit 2).
+* Die Freiheit, das Programm zu verbessern und diese Verbesserungen der Öffentlichkeit freizugeben, damit die gesamte Gesellschaft davon profitiert (Freiheit 3). Der Zugang zum Quellcode ist dafür Voraussetzung.
+
+
+:::quelle
+
+Vier wesentliche Freiheiten von Freier Lizenzen [Gnu.org](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+
+:::
+
+## Creative Commons Lizenzen
+
+* CC BY 4.0: credit must be given to the creator.
+* CC BY-SA 4.0: Adaptations must be shared under the same terms.
+* CC BY-NC 4.0: Only noncommercial uses of the work are permitted.
+* CC BY-ND 4.0: No derivatives or adaptations of the work are permitted.
+
+Rechtsgültig ist der vollständige [Legal Code](https://creativecommons.org/licenses/by/4.0/legalcode.en) auf [creativecommons.org](https://creativecommons.org)
+
+
+# Datenschutz
+
+## Traumreise
+
+![Restaurantbesuch ohne Lebensmittelgesetz ([LMG](https://www.fedlex.admin.ch/eli/cc/2017/62/de))](MI_unterrichten/restaurant.png){#fig-rest}
+
+## Fazit
+
+Mangelnde Lebensmittelhygiene macht Leute krank!
+
+. . .
+
+Mangelnde Datenhygiene ...
+
+## Unterteilung
+
+**Datenschutz**(recht) schützt Personen vor Unternehmen und Behörden.
+
+**Datensicherheit** schützt Unternehmen vor Personen.
+
+## Datenschutzgesetze (Schweiz)
+
+### Kantonal 
+[Art.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04): Dieses Gesetz dient dem Schutz von Personen vor missbräuchlicher Datenbearbeitung **durch Behörden.**
+
+### Eidgenössisch
+
+[Art.2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de): Dieses Gesetz gilt für die Bearbeitung von Personendaten natürlicher Personen durch: a. private Personen; b. Bundesorgane.
