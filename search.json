@@ -4,7 +4,7 @@
     "href": "Linksammlung.html",
     "title": "Linksammlung",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\nArbeitenportal\n\n\n\n\n\n\nKomet\n\n\n\n\n\n\nSoftwarekatalog\n\n\n\n\n\n\nLimeSurvey\n\n\n\n\n\n\nDocata\n\n\n\n\n\n\nCampusportal\n\n\n\n\n\n\nQM-Pilot\n\n\n\n\n\n\nForum für Lehrpersonen\n\n\n\n\n\n\nRichtlinien zur Texterstellung\n\n\n\n\n\n\nAssessment Toolbox\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\nArbeitenportal\n\n\n\n\n\n\nKomet\n\n\n\n\n\n\nSoftwarekatalog\n\n\n\n\n\n\nLimeSurvey\n\n\n\n\n\n\nDocata\n\n\n\n\n\n\nCampusportal\n\n\n\n\n\n\nQM-Pilot\n\n\n\n\n\n\nForum für Lehrpersonen\n\n\n\n\n\n\nRichtlinien zur Texterstellung\n\n\n\n\n\n\nWissensdatenbank zu Software und Services der PHBern\n\n\n\n\n\n\nAssessment Toolbox\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Slides/Digitale_Medien_Beurteilung_01.html#ilias",
@@ -175,32 +175,39 @@
     "text": "Zentrale Komponenten\n\nCPU (Central Processing Unit): “Gehirn” des Computers\nRAM (Arbeitsspeicher): Temporärer Speicher für schnelle Zugriffe\nFestplatte/SSD: Dauerhafter Speicher\nMotherboard: Verbindet alle Komponenten\nPeripherie: Drucker, Scanner, externe Geräte"
   },
   {
+    "objectID": "Slides/MI_unterrichten_block_02.html#turing-maschine",
+    "href": "Slides/MI_unterrichten_block_02.html#turing-maschine",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Turing Maschine",
+    "text": "Turing Maschine\n\n\nAbbildung 1: Ein-Band-Turingmaschine TripleWhy CC BY-SA 3.0"
+  },
+  {
     "objectID": "Slides/MI_unterrichten_block_02.html#cpu",
     "href": "Slides/MI_unterrichten_block_02.html#cpu",
     "title": "Medien und Informatik unterrichten",
     "section": "CPU",
-    "text": "CPU\n\n\nAbbildung 1: Central Processing Unit von Lambtron CC BY-SA 4.0"
+    "text": "CPU\n\n\nAbbildung 2: Central Processing Unit von Lambtron CC BY-SA 4.0"
   },
   {
     "objectID": "Slides/MI_unterrichten_block_02.html#ram",
     "href": "Slides/MI_unterrichten_block_02.html#ram",
     "title": "Medien und Informatik unterrichten",
     "section": "RAM",
-    "text": "RAM\n\n\nAbbildung 2: Random-Access Memory von An-D CC BY-SA 4.0"
+    "text": "RAM\n\n\nAbbildung 3: Random-Access Memory von An-D CC BY-SA 4.0"
   },
   {
     "objectID": "Slides/MI_unterrichten_block_02.html#ssd-hdd",
     "href": "Slides/MI_unterrichten_block_02.html#ssd-hdd",
     "title": "Medien und Informatik unterrichten",
     "section": "SSD / HDD",
-    "text": "SSD / HDD\n\n\n\n\n\n\n\n\nAbbildung 3: Solid State Drive - CC0\n\n\n\n\n\n\n\n\n\n\nAbbildung 4: Solid State Drive von Anselm Schüler CC BY-SA 4.0"
+    "text": "SSD / HDD\n\n\n\n\n\n\n\n\nAbbildung 4: Solid State Drive - CC0\n\n\n\n\n\n\n\n\n\n\nAbbildung 5: Solid State Drive von Anselm Schüler CC BY-SA 4.0"
   },
   {
     "objectID": "Slides/MI_unterrichten_block_02.html#mainboard-motherboard",
     "href": "Slides/MI_unterrichten_block_02.html#mainboard-motherboard",
     "title": "Medien und Informatik unterrichten",
     "section": "Mainboard (Motherboard)",
-    "text": "Mainboard (Motherboard)\n\n\nAbbildung 5: Random-Access Memory von https://pcsite.co.uk/motherboard/ CC BY-SA 4.0"
+    "text": "Mainboard (Motherboard)\n\n\nAbbildung 6: Random-Access Memory von https://pcsite.co.uk/motherboard/ CC BY-SA 4.0"
   },
   {
     "objectID": "Slides/MI_unterrichten_block_02.html#netzwerke-grundlagen",
@@ -214,7 +221,7 @@
     "href": "Slides/MI_unterrichten_block_02.html#netzwerktopologien",
     "title": "Medien und Informatik unterrichten",
     "section": "Netzwerktopologien",
-    "text": "Netzwerktopologien\n\n\nAbbildung 6: Random-Access Memory von Foobaz, Parzi, Predatorix CC BY-SA 4.0"
+    "text": "Netzwerktopologien\n\n\nAbbildung 7: Random-Access Memory von Foobaz, Parzi, Predatorix CC BY-SA 4.0"
   },
   {
     "objectID": "Slides/MI_unterrichten_block_02.html#auftrag",
@@ -438,7 +445,7 @@
     "href": "Slides/MI_unterrichten_03.html#privatsheitsparadox",
     "title": "Medien und Informatik unterrichten",
     "section": "Privatsheitsparadox",
-    "text": "Privatsheitsparadox\n\nDass Personen mit Organisationen interagieren, die Personen existentiell gefährlich werden können und denen sie sich trotzdem ausliefern (müssen), gehört zum schlichten Alltagswissen spätestens seit der Schule.\n\n(rost2013?)"
+    "text": "Privatsheitsparadox\n\nDass Personen mit Organisationen interagieren, die Personen existentiell gefährlich werden können und denen sie sich trotzdem ausliefern (müssen), gehört zum schlichten Alltagswissen spätestens seit der Schule.\n\nRost (2013)"
   },
   {
     "objectID": "Slides/MI_unterrichten_03.html#datenschutzrecht-für-lehrpersonen",
@@ -480,14 +487,14 @@
     "href": "Slides/MI_unterrichten_03.html#datensicherheit",
     "title": "Medien und Informatik unterrichten",
     "section": "Datensicherheit",
-    "text": "Datensicherheit\n\n\nAbbildung 1: (hansen2015?)"
+    "text": "Datensicherheit\n\n\nAbbildung 1: Hansen, Jensen, und Rost (2015)"
   },
   {
     "objectID": "Slides/MI_unterrichten_03.html#bibliographie",
     "href": "Slides/MI_unterrichten_03.html#bibliographie",
     "title": "Medien und Informatik unterrichten",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nRehak, Rainer. 2018. „Was Schützt Eigentlich Der Datenschutz?“"
+    "text": "Bibliographie\n\n\n\n\nHansen, Marit, Meiko Jensen, und Martin Rost. 2015. „Protection Goals for Privacy Engineering“. In 2015 IEEE Security and Privacy Workshops, 159–66. San Jose, CA: IEEE. https://doi.org/10.1109/SPW.2015.13.\n\n\nRehak, Rainer. 2018. „Was Schützt Eigentlich Der Datenschutz?“\n\n\nRost, Martin. 2013. „Zur Soziologie Des Datenschutzes“. Datenschutz und Datensicherheit, Nr. 2: 85–91."
   },
   {
     "objectID": "Slides/MI_unterrichten_02.html#überblick",
@@ -586,6 +593,55 @@
     "title": "Medien und Informatik unterrichten",
     "section": "Auftrag",
     "text": "Auftrag\nZeichnen Sie eine Skizze wie folgende Komponenten zusammenhängen. Sie können ihr Zuhause oder ihre Schule als Modell nehmen:\n\nMobiltelefon\nLaptop\nRouter\n5G Sendemast\nRouter\nWLAN-Antenne\nNetflix Server"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#urheberrechtsgesetz-urg",
+    "href": "Slides/MI_unterrichten_block_03.html#urheberrechtsgesetz-urg",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Urheberrechtsgesetz (URG)",
+    "text": "Urheberrechtsgesetz (URG)\nArt. 19 Abs.3 URG Ausserhalb des privaten Kreises nach Absatz 1 Buchstabe a sind nicht zulässig:\n\ndie vollständige oder weitgehend vollständige Vervielfältigung im Handel erhältlicher Werkexemplare;\n\nArt. 25 Abs.1 URG Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist."
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#freie-lizenzen",
+    "href": "Slides/MI_unterrichten_block_03.html#freie-lizenzen",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Freie Lizenzen",
+    "text": "Freie Lizenzen\n\nDie Freiheit, das Programm auszuführen wie man möchte, für jeden Zweck (Freiheit 0).\nDie Freiheit, die Funktionsweise des Programms zu untersuchen und eigenen Datenverarbeitungbedürfnissen anzupassen (Freiheit 1). Der Zugang zum Quellcode ist dafür Voraussetzung.\nDie Freiheit, das Programm zu redistribuieren und damit Mitmenschen zu helfen (Freiheit 2).\nDie Freiheit, das Programm zu verbessern und diese Verbesserungen der Öffentlichkeit freizugeben, damit die gesamte Gesellschaft davon profitiert (Freiheit 3). Der Zugang zum Quellcode ist dafür Voraussetzung.\n\n\nVier wesentliche Freiheiten von Freier Lizenzen Gnu.org"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#creative-commons-lizenzen",
+    "href": "Slides/MI_unterrichten_block_03.html#creative-commons-lizenzen",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Creative Commons Lizenzen",
+    "text": "Creative Commons Lizenzen\n\nCC BY 4.0: credit must be given to the creator.\nCC BY-SA 4.0: Adaptations must be shared under the same terms.\nCC BY-NC 4.0: Only noncommercial uses of the work are permitted.\nCC BY-ND 4.0: No derivatives or adaptations of the work are permitted.\n\nRechtsgültig ist der vollständige Legal Code auf creativecommons.org"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#traumreise",
+    "href": "Slides/MI_unterrichten_block_03.html#traumreise",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Traumreise",
+    "text": "Traumreise\n\n\nAbbildung 1: Restaurantbesuch ohne Lebensmittelgesetz (LMG)"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#fazit",
+    "href": "Slides/MI_unterrichten_block_03.html#fazit",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Fazit",
+    "text": "Fazit\nMangelnde Lebensmittelhygiene macht Leute krank!\n\nMangelnde Datenhygiene …"
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#unterteilung",
+    "href": "Slides/MI_unterrichten_block_03.html#unterteilung",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Unterteilung",
+    "text": "Unterteilung\nDatenschutz(recht) schützt Personen vor Unternehmen und Behörden.\nDatensicherheit schützt Unternehmen vor Personen."
+  },
+  {
+    "objectID": "Slides/MI_unterrichten_block_03.html#datenschutzgesetze-schweiz",
+    "href": "Slides/MI_unterrichten_block_03.html#datenschutzgesetze-schweiz",
+    "title": "Medien und Informatik unterrichten",
+    "section": "Datenschutzgesetze (Schweiz)",
+    "text": "Datenschutzgesetze (Schweiz)\nKantonal\nArt.1 KDSG: Dieses Gesetz dient dem Schutz von Personen vor missbräuchlicher Datenbearbeitung durch Behörden.\nEidgenössisch\nArt.2 Abs. 1 DSG: Dieses Gesetz gilt für die Bearbeitung von Personendaten natürlicher Personen durch: a. private Personen; b. Bundesorgane."
   },
   {
     "objectID": "Slides/Zusammenarbeit_und_Kommunikation_01.html#ziele-der-veranstaltung",

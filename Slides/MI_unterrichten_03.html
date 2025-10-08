@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.24">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.33">
 
   <title>LG 25 26 – Medien und Informatik unterrichten</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,7 +48,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-47a83337db581ea13eb97006e50fadff.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9be7326239ebda32cb40c7df9eec2b06.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -199,7 +199,7 @@ Richard Conrardy
 <blockquote>
 <p>Dass Personen mit Organisationen interagieren, die Personen existentiell gefährlich werden können und denen sie sich trotzdem ausliefern (müssen), gehört zum schlichten Alltagswissen spätestens seit der Schule.</p>
 <div class="quelle">
-<p><span class="citation" data-cites="rost2013">(<a href="#/bibliographie" role="doc-biblioref" onclick=""><strong>rost2013?</strong></a>)</span></p>
+<p><span class="citation" data-cites="rost2013">Rost (<a href="#/bibliographie" role="doc-biblioref" onclick="">2013</a>)</span></p>
 </div>
 </blockquote>
 </section>
@@ -264,15 +264,21 @@ Richard Conrardy
 <h2>Datensicherheit</h2>
 
 <img data-src="Datenschutz/Datenschutz-Schutzziele.svg" class="r-stretch quarto-figure-center" id="fig-schutzziele"><p class="caption">
-Abbildung&nbsp;1: <span class="citation" data-cites="hansen2015">(<a href="#/bibliographie" role="doc-biblioref" onclick=""><strong>hansen2015?</strong></a>)</span>
+Abbildung&nbsp;1: <span class="citation" data-cites="hansen2015">Hansen, Jensen, und Rost (<a href="#/bibliographie" role="doc-biblioref" onclick="">2015</a>)</span>
 </p></section>
 <section id="bibliographie" class="slide level2 smaller scrollable">
 <h2>Bibliographie</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-hansen2015" class="csl-entry" role="listitem">
+Hansen, Marit, Meiko Jensen, und Martin Rost. 2015. <span>„Protection <span>Goals</span> for <span>Privacy Engineering</span>“</span>. In <em>2015 <span>IEEE Security</span> and <span>Privacy Workshops</span></em>, 159–66. San Jose, CA: IEEE. <a href="https://doi.org/10.1109/SPW.2015.13">https://doi.org/10.1109/SPW.2015.13</a>.
+</div>
 <div id="ref-rehak2018" class="csl-entry" role="listitem">
 Rehak, Rainer. 2018. <span>„Was Sch<span>ü</span>tzt Eigentlich Der <span>Datenschutz</span>?“</span>
+</div>
+<div id="ref-rost2013" class="csl-entry" role="listitem">
+Rost, Martin. 2013. <span>„Zur <span>Soziologie</span> Des <span>Datenschutzes</span>“</span>. <em>Datenschutz und Datensicherheit</em>, Nr. 2: 85–91.
 </div>
 </div>
 </section></section>
@@ -465,7 +471,7 @@ Rehak, Rainer. 2018. <span>„Was Sch<span>ü</span>tzt Eigentlich Der <span>Dat
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -539,14 +545,13 @@ Rehak, Rainer. 2018. <span>„Was Sch<span>ü</span>tzt Eigentlich Der <span>Dat
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
