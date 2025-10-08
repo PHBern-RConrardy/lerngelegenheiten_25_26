@@ -34,6 +34,9 @@ listing:
         - title: Richtlinien zur Texterstellung
           path: "https://rzt.site.phbern.ch/richtlinien/"
           categories: [PHBern]
+        - title: Wissensdatenbank zu Software und Services der PHBern
+          path: "https://kbss.site.phbern.ch/db/fobizz"
+          categories: [PHBern]
     type: table
     fields: [title]
     categories: true
