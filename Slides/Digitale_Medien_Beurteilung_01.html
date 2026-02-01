@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Richard Conrardy">
   <title>LG 25 26 – Digitale Medien in der Beurteilung einsetzen</title>
@@ -49,7 +49,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9be7326239ebda32cb40c7df9eec2b06.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-47a83337db581ea13eb97006e50fadff.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -162,7 +162,7 @@ Richard Conrardy
     </div>
 </div>
 
-  <p class="date">17.09.2025 um 16:15</p>
+  <p class="date">01.04.2026 um 16:15</p>
 </section>
 <section>
 <section id="organisatorisches" class="title-slide slide level1 center">
@@ -339,10 +339,10 @@ Richard Conrardy
 Anderson, Lorin W., und David R. Krathwohl, Hrsg. 2001. <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of <span>Bloom</span>’s Taxonomy of Educational Objectives</em>. Complete ed. New York: Longman.
 </div>
 <div id="ref-bildungs-undkulturdirektiondeskantonsbern2016" class="csl-entry" role="listitem">
-Bildungs- und Kulturdirektion des Kantons Bern, Hrsg. 2016. <span>„Lehrplan F<span>ü</span>r Die <span>Volksschule</span> Des <span>Kantons Bern</span>“</span>.
+Bildungs- und Kulturdirektion des Kantons Bern, Hrsg. 2016. <span>„Lehrplan Für Die <span>Volksschule</span> Des <span>Kantons Bern</span>“</span>.
 </div>
 <div id="ref-krebs2004" class="csl-entry" role="listitem">
-Krebs, René. 2004. <span>„<span>Anleitung zur Herstellung von MC-Fragen und MC-Pr<span>ü</span>fungen f<span>ü</span>r die <span>ä</span>rztliche Ausbildung</span>“</span>. Abteilung f<span>ü</span>r Assessment und Evaluation AAE.
+Krebs, René. 2004. <span>„<span>Anleitung zur Herstellung von MC-Fragen und MC-Prüfungen für die ärztliche Ausbildung</span>“</span>. Abteilung für Assessment und Evaluation AAE.
 </div>
 <div id="ref-porst2014" class="csl-entry" role="listitem">
 Porst, Rolf. 2014. <em><span>Fragebogen: Ein Arbeitsbuch</span></em>. Wiesbaden: Springer Fachmedien Wiesbaden. <a href="https://doi.org/10.1007/978-3-658-02118-4">https://doi.org/10.1007/978-3-658-02118-4</a>.
@@ -538,7 +538,7 @@ Porst, Rolf. 2014. <em><span>Fragebogen: Ein Arbeitsbuch</span></em>. Wiesbaden:
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -612,13 +612,14 @@ Porst, Rolf. 2014. <em><span>Fragebogen: Ein Arbeitsbuch</span></em>. Wiesbaden:
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

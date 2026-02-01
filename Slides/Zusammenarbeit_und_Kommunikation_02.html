@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Richard Conrardy">
   <title>LG 25 26 – Digitale Zusammenarbeit und Kommunikation</title>
@@ -49,7 +49,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9be7326239ebda32cb40c7df9eec2b06.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-47a83337db581ea13eb97006e50fadff.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -245,7 +245,7 @@ Abbildung&nbsp;3: Typische Spannungsfelder der Schulkommunikation, <span class="
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-rosenberger2023" class="csl-entry" role="listitem">
-Rosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes Breitschaft, Eliane Burri, Martin Fugmann, Sarah Genner, u.&nbsp;a. 2023. <span>„Wie Gestalte Ich Die <span>Kommunikation</span> Meiner <span>Schule</span> Im Digitalen <span>Wandel</span>?“</span> In <em>Digital <span>Leadership</span> – <span>Schulen</span> Im Digitalen <span>Wandel</span> F<span>ü</span>hren</em>, herausgegeben von Johannes Breitschaft, Tobias Röhl, Eliane Burri, und Nicole Wespi. hep Verlag. <a href="https://doi.org/10.36933/9783035523393">https://doi.org/10.36933/9783035523393</a>.
+Rosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes Breitschaft, Eliane Burri, Martin Fugmann, Sarah Genner, u.&nbsp;a. 2023. <span>„Wie Gestalte Ich Die <span>Kommunikation</span> Meiner <span>Schule</span> Im Digitalen <span>Wandel</span>?“</span> In <em>Digital <span>Leadership</span> – <span>Schulen</span> Im Digitalen <span>Wandel</span> Führen</em>, herausgegeben von Johannes Breitschaft, Tobias Röhl, Eliane Burri, und Nicole Wespi. hep Verlag. <a href="https://doi.org/10.36933/9783035523393">https://doi.org/10.36933/9783035523393</a>.
 </div>
 </div>
 </section></section>
@@ -438,7 +438,7 @@ Rosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -512,13 +512,14 @@ Rosenberger, Nicole, Colette Schneider Stingelin, Gabriele Baumgartner, Johannes
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
