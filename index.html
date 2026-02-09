@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4be241b6022f6c8ef359194843c9084.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0fd445826db4cc1007072b2af7a3b60c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-categories","listing-status"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,7 +130,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -175,7 +174,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="QmV1cnRlaWx1bmc=">Beurteilung <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGlnaXRhbGl0JUMzJUE0dA==">Digitalität <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SVMx">IS1 <span class="quarto-category-count">(10)</span></div><div class="category" data-category="SVMy">IS2 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGVocmVuJTIwdW5kJTIwTGVybmVu">Lehren und Lernen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmc=">Persönliche und professionelle Entwicklung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhbnVuZw==">Planung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJha3Rpa3VtJTIwMQ==">Praktikum 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1AxMw==">SP13 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WnVzYW1tZW5hcmJlaXQlMjB1bmQlMjBLb21tdW5pa2F0aW9u">Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="QmV1cnRlaWx1bmc=">Beurteilung <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGlnaXRhbGl0JUMzJUE0dA==">Digitalität <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RmlQ">FiP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9CZQ==">FoBe <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yc2NodW5n">Forschung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RlMyNg==">FS26 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SFMyNQ==">HS25 <span class="quarto-category-count">(12)</span></div><div class="category" data-category="SFMyNg==">HS26 <span class="quarto-category-count">(6)</span></div><div class="category" data-category="SVMx">IS1 <span class="quarto-category-count">(18)</span></div><div class="category" data-category="SVMy">IS2 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TGVocmVuJTIwdW5kJTIwTGVybmVu">Lehren und Lernen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmc=">Persönliche und professionelle Entwicklung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhbnVuZw==">Planung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJha3Rpa3VtJTIwMQ==">Praktikum 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvZmlsYmlsZHVuZyUyME0lMjZJ">Profilbildung M&amp;I <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U1AxMw==">SP13 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WnVzYW1tZW5hcmJlaXQlMjB1bmQlMjBLb21tdW5pa2F0aW9u">Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -203,184 +202,485 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-iliaskurse">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-iliaskurse-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-iliaskurse'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-status" data-direction="asc">
-        status
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-iliaskurse">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMSUyQ0hTMjY=">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Anwendungs- und Medien- und Informatikkompenzen im Fachunterricht
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
+
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QmV1cnRlaWx1bmclMkNJUzElMkNIUzI1JTJDRlMyNg==">
+<a href="https://ilias.phbern.ch/go/crs/2607204" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/digi_Beurteilung.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Digitale Medien in der Beurteilung einsetzen
+</h5>
+<div class="listing-categories">
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
+<div class="listing-category" onclick="window.quartoListingCategory('QmV1cnRlaWx1bmc='); return false;">Beurteilung</div>
 
-<th>
-<a class="sort" data-sort="listing-status" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">status</a>
-</th>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-</tr>
-</thead>
-<tbody class="list">
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
 
-<tr data-index="0" data-categories="WnVzYW1tZW5hcmJlaXQlMjB1bmQlMjBLb21tdW5pa2F0aW9uJTJDSVMx" data-listing-title-sort="Digitale Zusammenarbeit und Kommunikation">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607151.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
-</td>
-<td>
-<span class="listing-status">online, slides unfertig</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('RlMyNg=='); return false;">FS26</div>
 
-</tr>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="WnVzYW1tZW5hcmJlaXQlMjB1bmQlMjBLb21tdW5pa2F0aW9uJTJDSVMxJTJDSFMyNQ==">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2607151.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/digi_ZuK.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Digitale Zusammenarbeit und Kommunikation
+</h5>
+<div class="listing-categories">
 
-<tr data-index="1" data-categories="QmV1cnRlaWx1bmclMkNJUzE=" data-listing-title-sort="Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607209.html" class="title listing-title">Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot</a>
-</td>
-<td>
-<span class="listing-status">&nbsp;</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('WnVzYW1tZW5hcmJlaXQlMjB1bmQlMjBLb21tdW5pa2F0aW9u'); return false;">Zusammenarbeit und Kommunikation</div>
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-<tr data-index="2" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-title-sort="Kick-off Leistungsnachweis Digitalität">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2606931.html" class="title listing-title">Kick-off Leistungsnachweis Digitalität</a>
-</td>
-<td>
-<span class="listing-status">ok vom Team</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
 
-</tr>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-file-modified-sort="1770671556178" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./module/digitalität.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/Digitalität.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Digitalität
+</h5>
+<div class="listing-categories">
 
-<tr data-index="3" data-categories="UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmclMkNQcmFrdGlrdW0lMjAxJTJDTGVocmVuJTIwdW5kJTIwTGVybmVu" data-listing-title-sort="Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2606891.html" class="title listing-title">Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag</a>
-</td>
-<td>
-<span class="listing-status">&nbsp;</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-<tr data-index="4" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 1 / S-Angebot">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588286.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 1 / S-Angebot</a>
-</td>
-<td>
-<span class="listing-status">ok, ilias fertig</span>
-</td>
+</div>
+<div class="card-text listing-description delink">
 
-</tr>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-<tr data-index="5" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 2 / Block Feb">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588276.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / Block Feb</a>
-</td>
-<td>
-<span class="listing-status">&nbsp;</span>
-</td>
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QmV1cnRlaWx1bmclMkNJUzElMkNIUzI1JTJDRlMyNg==">
+<a href="https://ilias.phbern.ch/go/crs/2665336" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/digi_datenschutz.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Digitalität und Datenschutz
+</h5>
+<div class="listing-categories">
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('QmV1cnRlaWx1bmc='); return false;">Beurteilung</div>
 
-<tr data-index="6" data-categories="SVMy" data-listing-title-sort="Pädagogik, Psychologie, Digitalität 2 / F-Angebot">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2588277.html" class="title listing-title">Pädagogik, Psychologie, Digitalität 2 / F-Angebot</a>
-</td>
-<td>
-<span class="listing-status">ok, ilias fertig</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
 
-<tr data-index="7" data-categories="SVMxJTJDU1AxMw==" data-listing-title-sort="Spezialisierung Informatik - Sammelgefäss HS25">
-<td>
-<a href="https://ilias.phbern.ch/goto_phbern_crs_2607362.html" class="title listing-title">Spezialisierung Informatik - Sammelgefäss HS25</a>
-</td>
-<td>
-<span class="listing-status">Iliaskurs noch nicht fertig</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('RlMyNg=='); return false;">FS26</div>
 
-</tr>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RmlQJTJDSVMxJTJDSFMyNg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
 
-<tr data-index="8" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-title-sort="Kompetenzstandanalyse Digitalität">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2606933" class="title listing-title">Kompetenzstandanalyse Digitalität</a>
-</td>
-<td>
-<span class="listing-status">ok vom Team</span>
-</td>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+FiP meets Digitalität
+</h5>
+<div class="listing-categories">
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('RmlQ'); return false;">FiP</div>
 
-<tr data-index="9" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-title-sort="Medien &amp; Informatik unterrichten (Seminar)">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2606932" class="title listing-title">Medien &amp; Informatik unterrichten (Seminar)</a>
-</td>
-<td>
-<span class="listing-status">Aufteilung steht</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
 
-<tr data-index="10" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMQ==" data-listing-title-sort="Medien &amp; Informatik unterrichten (Blockkurs)">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2606935" class="title listing-title">Medien &amp; Informatik unterrichten (Blockkurs)</a>
-</td>
-<td>
-<span class="listing-status">Aufteilung steht</span>
-</td>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Rm9yc2NodW5nJTJDSVMx" data-listing-file-modified-sort="1770671556179" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./module/forschung.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/Forschung.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Forschungs- und Berufsfeldorientierung
+</h5>
+<div class="listing-categories">
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9yc2NodW5n'); return false;">Forschung</div>
 
-<tr data-index="11" data-categories="QmV1cnRlaWx1bmclMkNJUzE=" data-listing-title-sort="Digitalität und Datenschutz">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2665336" class="title listing-title">Digitalität und Datenschutz</a>
-</td>
-<td>
-<span class="listing-status">ilias ok, folien offen</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
 
-</tr>
+</div>
+<div class="card-text listing-description delink">
 
-<tr data-index="12" data-categories="UGxhbnVuZyUyQ0lTMQ==" data-listing-title-sort="Mediendidaktik">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2607118" class="title listing-title">Mediendidaktik</a>
-</td>
-<td>
-<span class="listing-status">online, fertig</span>
-</td>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-</tr>
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="QmV1cnRlaWx1bmclMkNJUzElMkNIUzI1">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2607209.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
 
-<tr data-index="13" data-categories="QmV1cnRlaWx1bmclMkNJUzE=" data-listing-title-sort="Digitale Medien in der Beurteilung einsetzen">
-<td>
-<a href="https://ilias.phbern.ch/go/crs/2607204" class="title listing-title">Digitale Medien in der Beurteilung einsetzen</a>
-</td>
-<td>
-<span class="listing-status">ilias ok, slides not</span>
-</td>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Grundlagen der Beurteilung - Fallbasiert diskutiert, SOL mit Coaching-Angebot
+</h5>
+<div class="listing-categories">
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('QmV1cnRlaWx1bmc='); return false;">Beurteilung</div>
 
-</tbody>
-</table>
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMSUyQ0hTMjU=">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2606931.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kick-off Leistungsnachweis Digitalität
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="UHJvZmlsYmlsZHVuZyUyME0lMjZJJTJDSVMxJTJDSFMyNg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+M&amp;I gestalten
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZmlsYmlsZHVuZyUyME0lMjZJ'); return false;">Profilbildung M&amp;I</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="UHJvZmlsYmlsZHVuZyUyME0lMjZJJTJDSVMxJTJDSFMyNg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+M&amp;I unterrichten
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZmlsYmlsZHVuZyUyME0lMjZJ'); return false;">Profilbildung M&amp;I</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="UHJvZmlsYmlsZHVuZyUyME0lMjZJJTJDSVMxJTJDSFMyNg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+M&amp;I verstehen
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZmlsYmlsZHVuZyUyME0lMjZJ'); return false;">Profilbildung M&amp;I</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMSUyQ0hTMjU=">
+<a href="https://ilias.phbern.ch/go/crs/2606935" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Medien &amp; Informatik unterrichten (Blockkurs)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMSUyQ0hTMjU=">
+<a href="https://ilias.phbern.ch/go/crs/2606932" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Medien &amp; Informatik unterrichten (Seminar)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMSUyQ0hTMjY=">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Medien als Lehrperson einsetzen
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNg=='); return false;">HS26</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="UGxhbnVuZyUyQ0lTMSUyQ0ZTMjY=">
+<a href="https://ilias.phbern.ch/go/crs/2607118" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/digi_Mediendidaktik.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mediendidaktik
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhbnVuZw=='); return false;">Planung</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RlMyNg=='); return false;">FS26</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="RGlnaXRhbGl0JUMzJUE0dCUyQ0lTMg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modul Digitalität IS2
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbGl0JUMzJUE0dA=='); return false;">Digitalität</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMy'); return false;">IS2</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmclMkNQcmFrdGlrdW0lMjAxJTJDTGVocmVuJTIwdW5kJTIwTGVybmVuJTJDSFMyNQ==">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2606891.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ohne Prompt kein Studium? KI und Wissenschaft im Hochschulalltag
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVycyVDMyVCNm5saWNoZSUyMHVuZCUyMHByb2Zlc3Npb25lbGxlJTIwRW50d2lja2x1bmc='); return false;">Persönliche und professionelle Entwicklung</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJha3Rpa3VtJTIwMQ=='); return false;">Praktikum 1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVocmVuJTIwdW5kJTIwTGVybmVu'); return false;">Lehren und Lernen</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="SVMyJTJDSFMyNQ==">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2588286.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/PPD1s.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pädagogik, Psychologie, Digitalität 1 / S-Angebot
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMy'); return false;">IS2</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="SVMyJTJDSFMyNQ==">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2588276.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/PPD2b.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pädagogik, Psychologie, Digitalität 2 / Block Feb
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMy'); return false;">IS2</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="SVMyJTJDSFMyNQ==">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2588277.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/PPD2f.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pädagogik, Psychologie, Digitalität 2 / F-Angebot
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMy'); return false;">IS2</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="SVMxJTJDU1AxMyUyQ0hTMjU=">
+<a href="https://ilias.phbern.ch/goto_phbern_crs_2607362.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./thumbnails/digi_Spezialisierung.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spezialisierung Informatik - Sammelgefäss HS25
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SVMx'); return false;">IS1</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U1AxMw=='); return false;">SP13</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFMyNQ=='); return false;">HS25</div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="Rm9CZSUyQ0ZvcnNjaHVuZyUyQ0lTMQ==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+
+</div></a>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -5,7 +5,10 @@
   },
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/module/digitalität.html",
+      "/module/forschung.html"
+    ]
   },
   {
     "listing": "/slides.html",
