@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - thumbnails/**
 
 
 website:
@@ -20,7 +22,7 @@ format:
   html:
     theme:
       - default
-    css: styles.css
+    style: style/styles.css
   revealjs:
     lang: de
     date-format: "DD.MM.YYYY  [um]   HH:mm"

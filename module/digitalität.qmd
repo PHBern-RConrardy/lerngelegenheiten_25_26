@@ -1,0 +1,7 @@
+---
+format: html
+title: Digitalität
+subtitle: IS1
+image: /thumbnails/Digitalität.svg
+categories: [Digitalität, IS1]
+---
