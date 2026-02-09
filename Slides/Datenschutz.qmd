@@ -5,8 +5,8 @@ format:
 title: Digitalität und Datenschutz
 author: Richard Conrardy
 institute: PHBern, IS1
-date: 2025-10-02 18:15
-room: "B302"
+date: 2026-04-29 16:15
+room: "C301"
 ---
 
 # Lernziele
