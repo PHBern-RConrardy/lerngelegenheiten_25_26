@@ -1,0 +1,6 @@
+img.thumbnail-image.card-img {
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,8 @@
+---
+format: html
+title: Forschungs- und Berufsfeldorientierung
+subtitle: IS1
+image: /thumbnails/Forschung.svg
+categories: [Forschung, IS1]
+url: https://ilias.phbern.ch/go/crs/1789270
+---
