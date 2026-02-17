@@ -24,9 +24,10 @@ format:
       - default
     style: style/styles.css
   revealjs:
+    style: style/manuscript.scss
     lang: de
     date-format: "DD.MM.YYYY  [um]   HH:mm"
-    theme: [black, style/manuscript.scss]   # "black" base theme helps with dark mode
+    theme: []   # "black" base theme helps with dark mode
     center: false
     transition: none
     slide-number: false

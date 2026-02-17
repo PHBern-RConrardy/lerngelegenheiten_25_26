@@ -1,0 +1,37 @@
+---
+format: 
+  revealjs: default
+  docx: default
+title: Mediendidaktik
+subtitle: Rahmenbedingungen
+---
+# 
+
+## Mediendidaktik
+
+![@merz2012](Mediendidaktik/Mediendidaktik.PNG)
+
+## Austausch {background-color="var(--bg-activity)"}
+
+### Think
+
+Übungsaufgabe 1 Lesen Sie in @merz2012 [S. 7] die Beschreibung der Handlungsfelder.
+
+### Pair
+
+Besprechen Sie mit Ihrer Sitznachbarin in wiefern ihr Fachunterricht (nicht M&I) über Medien ist.
+Suchen und besprechen Sie ein Beispiel von gutem Medieneinsatz im (eigenen) Unterricht.
+
+### Share
+
+
+## Triadisches Modell
+
+![@ammann2009](Mediendidaktik/Triadisches_Modell.PNG)
+
+
+## Was ist Informatik?
+
+![@domainofsicence2017](Mediendidaktik/map_computer_science.png)
+
+## Bibliographie
