@@ -6,8 +6,8 @@ title: Digitale Medien in der Beurteilung einsetzen
 subtitle: Teil 2
 author: Richard Conrardy
 institute: PHBern, IS1
-date: "2025-10-01 16:15 "
-room: "C301"
+date: "2026-04-15 16:15 "
+room: "B106"
 ---
 
 # Rekapitulation

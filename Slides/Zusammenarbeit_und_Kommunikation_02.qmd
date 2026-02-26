@@ -6,8 +6,8 @@ title: Digitale Zusammenarbeit und Kommunikation
 subtitle: Teil 2
 author: Richard Conrardy
 institute: PHBern, IS1
-date: 2025-10-01 12:15
-room: "B303"
+date: 2026-05-06 16:15
+room: "C302"
 ---
 
 # Rekapitulation
