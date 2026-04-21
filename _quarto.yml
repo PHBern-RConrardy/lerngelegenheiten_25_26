@@ -25,15 +25,15 @@ format:
     style: style/styles.css
   revealjs:
     style: style/manuscript.scss
-    lang: de
+    lang: en
+    csl: style/apa.csl
     date-format: "DD.MM.YYYY  [um]   HH:mm"
-    theme: []   # "black" base theme helps with dark mode
+    theme: [default,style/manuscript.scss]   # "black" base theme helps with dark mode
     center: false
     transition: none
     slide-number: false
     controls: false
     progress: false
-    background-color: "#000000"
     menu: false
     bibliography: bibliography/richard.bib
     mermaid:

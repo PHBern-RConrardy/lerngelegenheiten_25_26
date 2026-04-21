@@ -21,3 +21,7 @@ $bg-activity: #adab6b;
   background: none;  // optional: remove the gray box
   border-left: 0.25em solid currentColor; // keep a subtle marker
 }
+
+html.activity .reveal .backgrounds .slide-background.present {
+  background-color: var(--bg-activity) !important;
+}
