@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1260" width="1200" height="1260">
+  <defs>
+    <style>
+      svg {
+        background: #ffffff;
+        touch-action: none;
+      }
+      text {
+        font-family: Arial, Helvetica, sans-serif;
+        fill: #243447;
+        user-select: none;
+      }
+      .title {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .subtitle {
+        font-size: 15px;
+        fill: #667085;
+      }
+      .center-main {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .center-ring-label {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+      }
+      .label-inner-curved {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .label-middle {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .label-outer-curved {
+        font-size: 19px;
+        font-weight: 700;
+      }
+      .segment {
+        stroke: #3d4a57;
+        stroke-width: 2.2;
+      }
+      .concept-ring {
+        fill: #eef2f7;
+        stroke: #3d4a57;
+        stroke-width: 2.4;
+      }
+      .center-fill {
+        fill: #ffffff;
+        stroke: #3d4a57;
+        stroke-width: 2.6;
+      }
+      .guide {
+        fill: none;
+        stroke: #d0d7de;
+        stroke-width: 1.2;
+      }
+      .interactive .rot-ring .segment {
+        cursor: grab;
+      }
+      .interactive .rot-ring.dragging .segment {
+        cursor: grabbing;
+      }
+    </style>
+    <path id="concept-arc" d="M 493.479 568.500 A 123.000 123.000 0 0 1 706.521 568.500" fill="none"/><path id="inner-arc-0" d="M 635.598 428.114 A 205.000 205.000 0 0 1 792.637 700.114" fill="none"/><path id="inner-arc-1" d="M 442.961 761.771 A 205.000 205.000 0 0 0 757.039 761.771" fill="none"/><path id="inner-arc-2" d="M 407.363 700.114 A 205.000 205.000 0 0 1 564.402 428.114" fill="none"/><path id="outer-arc-0" d="M 667.499 149.720 A 485.000 485.000 0 0 1 1035.915 417.390" fill="none"/><path id="outer-arc-1" d="M 936.909 978.880 A 485.000 485.000 0 0 0 1077.632 545.781" fill="none"/><path id="outer-arc-2" d="M 372.306 1058.230 A 485.000 485.000 0 0 0 827.694 1058.230" fill="none"/><path id="outer-arc-3" d="M 122.368 545.781 A 485.000 485.000 0 0 0 263.091 978.880" fill="none"/><path id="outer-arc-4" d="M 164.085 417.390 A 485.000 485.000 0 0 1 532.501 149.720" fill="none"/>
+  </defs>
+
+  <text x="600" y="48" text-anchor="middle" class="title">Drehscheibe Berufskonzept</text>
+  <text x="600" y="74" text-anchor="middle" class="subtitle">
+    Statisch in Inkscape/PowerPoint, drehbar in Browsern mit SVG-Scripting
+  </text>
+
+  <circle cx="600" cy="630" r="150" class="concept-ring"/>
+  <circle cx="600" cy="630" r="98" class="center-fill"/>
+
+  <text x="600" y="614" text-anchor="middle" class="center-main">
+    <tspan x="600" dy="0">professionelle</tspan>
+    <tspan x="600" dy="28">Lehrperson</tspan>
+    <tspan x="600" dy="28">Sek II</tspan>
+  </text>
+
+  <text class="center-ring-label">
+    <textPath href="#concept-arc" startOffset="50%" text-anchor="middle">Berufskonzept</textPath>
+  </text>
+
+  <g id="ring-inner" class="rot-ring" transform="rotate(0 600 630)">
+<path class="segment" fill="#9ebecc" d="M 600.000 370.000 A 260.000 260.000 0 0 1 825.167 760.000 L 729.904 705.000 A 150.000 150.000 0 0 0 600.000 480.000 Z"/>
+<text class="label-inner-curved"><textPath href="#inner-arc-0" startOffset="50%" text-anchor="middle">Lernprozess</textPath></text>
+<path class="segment" fill="#9ebecc" d="M 825.167 760.000 A 260.000 260.000 0 0 1 374.833 760.000 L 470.096 705.000 A 150.000 150.000 0 0 0 729.904 705.000 Z"/>
+<text class="label-inner-curved"><textPath href="#inner-arc-1" startOffset="50%" text-anchor="middle">Lernende</textPath></text>
+<path class="segment" fill="#9ebecc" d="M 374.833 760.000 A 260.000 260.000 0 0 1 600.000 370.000 L 600.000 480.000 A 150.000 150.000 0 0 0 470.096 705.000 Z"/>
+<text class="label-inner-curved"><textPath href="#inner-arc-2" startOffset="50%" text-anchor="middle">Lerngegenstand</textPath></text>
+</g>
+  <g id="ring-middle" class="rot-ring" transform="rotate(0 600 630)">
+<path class="segment" fill="#d9f2d9" d="M 600.000 210.000 A 420.000 420.000 0 0 1 782.231 251.593 L 712.810 395.748 A 260.000 260.000 0 0 0 600.000 370.000 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(12.857 675.657 298.525)"><tspan x="675.657" y="289.325">Unterricht</tspan><tspan x="675.657" y="307.725">konzipieren</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 782.231 251.593 A 420.000 420.000 0 0 1 928.369 368.134 L 803.276 467.893 A 260.000 260.000 0 0 0 712.810 395.748 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(38.571 811.987 364.177)"><tspan x="811.987" y="345.777">Sich</tspan><tspan x="811.987" y="364.177">professionell</tspan><tspan x="811.987" y="382.577">weiterentwickeln</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 928.369 368.134 A 420.000 420.000 0 0 1 1009.470 536.541 L 853.481 572.145 A 260.000 260.000 0 0 0 803.276 467.893 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(64.286 906.329 482.480)"><tspan x="906.329" y="473.280">Organisieren und</tspan><tspan x="906.329" y="491.680">administrieren</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 1009.470 536.541 A 420.000 420.000 0 0 1 1009.470 723.459 L 853.481 687.855 A 260.000 260.000 0 0 0 853.481 572.145 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(90.000 940.000 630.000)"><tspan x="940.000" y="620.800">Beziehungen</tspan><tspan x="940.000" y="639.200">gestalten</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 1009.470 723.459 A 420.000 420.000 0 0 1 928.369 891.866 L 803.276 792.107 A 260.000 260.000 0 0 0 853.481 687.855 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(295.714 906.329 777.520)"><tspan x="906.329" y="768.320">Kommunizieren und</tspan><tspan x="906.329" y="786.720">kooperieren</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 928.369 891.866 A 420.000 420.000 0 0 1 782.231 1008.407 L 712.810 864.252 A 260.000 260.000 0 0 0 803.276 792.107 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(321.429 811.987 895.823)"><tspan x="811.987" y="886.623">Innovationen</tspan><tspan x="811.987" y="905.023">gestalten</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 782.231 1008.407 A 420.000 420.000 0 0 1 600.000 1050.000 L 600.000 890.000 A 260.000 260.000 0 0 0 712.810 864.252 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(347.143 675.657 961.475)"><tspan x="675.657" y="961.475">Klassen führen</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 600.000 1050.000 A 420.000 420.000 0 0 1 417.769 1008.407 L 487.190 864.252 A 260.000 260.000 0 0 0 600.000 890.000 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(372.857 524.343 961.475)"><tspan x="524.343" y="952.275">Studierfähigkeit</tspan><tspan x="524.343" y="970.675">fördern</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 417.769 1008.407 A 420.000 420.000 0 0 1 271.631 891.866 L 396.724 792.107 A 260.000 260.000 0 0 0 487.190 864.252 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(398.571 388.013 895.823)"><tspan x="388.013" y="886.623">Partizipation</tspan><tspan x="388.013" y="905.023">ermöglichen</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 271.631 891.866 A 420.000 420.000 0 0 1 190.530 723.459 L 346.519 687.855 A 260.000 260.000 0 0 0 396.724 792.107 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(424.286 293.671 777.520)"><tspan x="293.671" y="759.120">Fachwissenschaftliche</tspan><tspan x="293.671" y="777.520">Auseinandersetzung</tspan><tspan x="293.671" y="795.920">fördern</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 190.530 723.459 A 420.000 420.000 0 0 1 190.530 536.541 L 346.519 572.145 A 260.000 260.000 0 0 0 346.519 687.855 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(270.000 260.000 630.000)"><tspan x="260.000" y="620.800">Jugendlichen</tspan><tspan x="260.000" y="639.200">begegnen</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 190.530 536.541 A 420.000 420.000 0 0 1 271.631 368.134 L 396.724 467.893 A 260.000 260.000 0 0 0 346.519 572.145 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(295.714 293.671 482.480)"><tspan x="293.671" y="473.280">Diagnostizieren</tspan><tspan x="293.671" y="491.680">und beurteilen</tspan></text>
+<path class="segment" fill="#d9f2d9" d="M 271.631 368.134 A 420.000 420.000 0 0 1 417.769 251.593 L 487.190 395.748 A 260.000 260.000 0 0 0 396.724 467.893 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(321.429 388.013 364.177)"><tspan x="388.013" y="364.177">Lernen begleiten</tspan></text>
+<path class="segment" fill="#c6eac6" d="M 417.769 251.593 A 420.000 420.000 0 0 1 600.000 210.000 L 600.000 370.000 A 260.000 260.000 0 0 0 487.190 395.748 Z"/>
+<text class="label-middle" text-anchor="middle" dominant-baseline="middle" transform="rotate(347.143 524.343 298.525)"><tspan x="524.343" y="289.325">Unterricht</tspan><tspan x="524.343" y="307.725">durchführen</tspan></text>
+</g>
+  <g id="ring-outer" class="rot-ring" transform="rotate(0 600 630)">
+<path class="segment" fill="#f3d58f" d="M 600.000 80.000 A 550.000 550.000 0 0 1 1123.081 460.041 L 999.444 500.213 A 420.000 420.000 0 0 0 600.000 210.000 Z"/>
+<text class="label-outer-curved"><textPath href="#outer-arc-0" startOffset="50%" text-anchor="middle">Fachwissenschaften</textPath></text>
+<path class="segment" fill="#f6cc79" d="M 1123.081 460.041 A 550.000 550.000 0 0 1 923.282 1074.959 L 846.870 969.787 A 420.000 420.000 0 0 0 999.444 500.213 Z"/>
+<text class="label-outer-curved"><textPath href="#outer-arc-1" startOffset="50%" text-anchor="middle">Fachdidaktik</textPath></text>
+<path class="segment" fill="#f3d58f" d="M 923.282 1074.959 A 550.000 550.000 0 0 1 276.718 1074.959 L 353.130 969.787 A 420.000 420.000 0 0 0 846.870 969.787 Z"/>
+<text class="label-outer-curved"><textPath href="#outer-arc-2" startOffset="50%" text-anchor="middle">Transversale Kompetenzen</textPath></text>
+<path class="segment" fill="#f6cc79" d="M 276.718 1074.959 A 550.000 550.000 0 0 1 76.919 460.041 L 200.556 500.213 A 420.000 420.000 0 0 0 353.130 969.787 Z"/>
+<text class="label-outer-curved"><textPath href="#outer-arc-3" startOffset="50%" text-anchor="middle">Erziehungs- und Sozialwissenschaften</textPath></text>
+<path class="segment" fill="#f3d58f" d="M 76.919 460.041 A 550.000 550.000 0 0 1 600.000 80.000 L 600.000 210.000 A 420.000 420.000 0 0 0 200.556 500.213 Z"/>
+<text class="label-outer-curved"><textPath href="#outer-arc-4" startOffset="50%" text-anchor="middle">Berufspraktische Ausbildung</textPath></text>
+</g>
+
+  <circle cx="600" cy="630" r="260" class="guide"/>
+  <circle cx="600" cy="630" r="420" class="guide"/>
+  <circle cx="600" cy="630" r="550" class="guide"/>
+
+  <script><![CDATA[
+    (function () {
+      var svg = document.documentElement;
+      if (!svg || !svg.createSVGPoint) return;
+
+      svg.classList.add("interactive");
+
+      var cx = 600, cy = 630;
+      var ringIds = ["ring-inner", "ring-middle", "ring-outer"];
+      var active = null;
+
+      function angleFromPoint(evt) {
+        var pt = svg.createSVGPoint();
+        pt.x = evt.clientX;
+        pt.y = evt.clientY;
+        var p = pt.matrixTransform(svg.getScreenCTM().inverse());
+        return Math.atan2(p.y - cy, p.x - cx) * 180 / Math.PI + 90;
+      }
+
+      function readRotation(el) {
+        var transform = el.getAttribute("transform") || "";
+        var match = transform.match(/rotate\(([-0-9.]+)/);
+        return match ? parseFloat(match[1]) : 0;
+      }
+
+      ringIds.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.addEventListener("pointerdown", function(evt) {
+          evt.preventDefault();
+          active = {
+            el: el,
+            startAngle: angleFromPoint(evt),
+            startRotation: readRotation(el)
+          };
+          el.classList.add("dragging");
+          if (el.setPointerCapture) {
+            try { el.setPointerCapture(evt.pointerId); } catch (e) {}
+          }
+        });
+      });
+
+      svg.addEventListener("pointermove", function(evt) {
+        if (!active) return;
+        evt.preventDefault();
+        var now = angleFromPoint(evt);
+        var delta = now - active.startAngle;
+        var rot = active.startRotation + delta;
+        active.el.setAttribute("transform", "rotate(" + rot + " " + cx + " " + cy + ")");
+      });
+
+      function stopDrag() {
+        if (!active) return;
+        active.el.classList.remove("dragging");
+        active = null;
+      }
+
+      svg.addEventListener("pointerup", stopDrag);
+      svg.addEventListener("pointercancel", stopDrag);
+      svg.addEventListener("pointerleave", stopDrag);
+    })();
+  ]]></script>
+</svg>
